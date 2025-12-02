@@ -20,7 +20,7 @@ const { issue } = Astro.props
 // const { Content } = await issue.render()
 let articles = await getCollection('articles')
 articles = articles.filter((a) => a.slug.split("/")[0].split("_")[1] == issue.slug);
-articles = articles.sort((a, b) => a.data.order < b.data.order ? -1 : 1);
+articles = articles.sort((a, b) => a.data.date < b.data.date ? -1 : 1);
 
 ---
 

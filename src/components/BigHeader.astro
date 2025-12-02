@@ -54,7 +54,6 @@ let top_menu = expand ? "hidden lg:flex" : "hidden"
 		{
 			header.style.boxShadow = "";
 		}
-		// console.log(opacity);
 	}
 
 	function switchMenuType() {
@@ -108,7 +107,7 @@ let top_menu = expand ? "hidden lg:flex" : "hidden"
 
 		<ul id="lg-menu" class=`${top_menu} invisible ml-auto space-x-20 absolute top-0 right-0 
 					lg:text-2xl xl:text-3xl`>
-			<li><a>Articles</a></li>
+			<li><a href="/articles">Articles</a></li>
 			<li><a href="/">Issues</a></li>
 			<li><a>Support us</a></li>
 			<li><a href="/about">About</a></li>
@@ -125,7 +124,7 @@ let top_menu = expand ? "hidden lg:flex" : "hidden"
 
 	</div>
 	<div id="sm-menu" class="text-2xl flex flex-col border-black hide-nav w-full bg-white z-50 fixed items-center">
-		<div class="py-4"><a>Articles</a></div>
+		<div class="py-4"><a href="/articles">Articles</a></div>
 		<div class="py-4"><a href="/">Issues</a></div>
 		<div class="py-4"><a>Support us</a></div>
 		<div class="py-4"><a href="/about">About</a></div>

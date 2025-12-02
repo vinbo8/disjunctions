@@ -1,11 +1,12 @@
 ---
 title: The International Communist Women's Day
-order: 1
-block: 4
+issue: 1
+date: 2023-01-03
+block: 1
 draft: true
 authors: 
     - clara-zetkin 
-image: "./img/p1.jpg"
+image: "../images/womens_day.jpg"
 abstract: Storms of enthusiasm greeted the motion.
 ---
 Source: International Press Correspondence, Vol. 2 No. 18, 8 March 1922, pp. 129–130.

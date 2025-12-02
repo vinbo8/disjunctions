@@ -23,7 +23,7 @@ const { Content } = await article.render()
 <Wrapper title={article.data.title} expand={true}>
 	<div class="flex flex-col mx-[10%] items-center">
 		<ArticleBanner entity={article} />
-		<!-- <Image src={article.data.image} alt="" class="my-8 sm:mb-12 w-min max-w-6/12 object-contain" /> -->
+		<Image src={article.data.image} alt="" class="my-8 sm:mb-12 w-min max-w-6/12 max-h-128 object-contain" />
 		<div class="flex flex-col items-center w-full">
 			<div class="prose text-block"><Content />
 			</div>

@@ -1,11 +1,11 @@
 ---
-title: Socialism & the Myth of the Golden Past
-order: 2
-block: 2
+title: The National Question
+date: 2021-06-01
 draft: true
+block: 2
 authors: 
-    - ralph-miliband
-image: "./img/p4.jpg"
+    - rosa-luxemburg
+image: "../images/germany_future.jpg"
 
 abstract: "The Notes are somewhat confusing. They have been renumbered and those that were by Rosa Luxemburg or her publisher attributed while the others are by the editor Horace B. Davis in the Monthly Review edition."
 ---

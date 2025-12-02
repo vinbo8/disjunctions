@@ -1,20 +1,19 @@
 ---
-title: Reform or Revolution
-order: 2
+title: Lorem Ipsum Dolor Sit Amet
+order: 3
 authors: 
-    - rosa-luxemburg
+    - julius-caesar
+    - friedrich-engels
+image: "../images/ccp.jpg"
 draft: false
 block: 1
-image: "./img/wide.png"
-abstract: The second condition of the gradual realisation of socialism is according to Bernstein, the evolution of the State in society. 
+date: 2021-02-03
+abstract: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
 ---	
-# Heading 1
 The second condition of the gradual realisation of socialism is according to Bernstein, the evolution of the State in society. It has become a commonplace to say that the present State is a class State. This, too, like referring to capitalist society, should not be understood in a rigorous absolute manner, but dialectically.
 
-## Subheading
 The State became capitalist with the political victory of the bourgeoisie. Capitalist development modifies essentially the nature of the State, widening its sphere of action, constantly imposing on it new functions (especially those affecting economic life), making more and more necessary its intervention and control in society. In this sense, capitalist development prepares little by little the future fusion of the State to society. It prepares, so to say, the return of the function of the state to society. Following this line of thought, one can speak of an evolution of the capitalist State into society, and it is undoubtedly what Marx had in mind when he referred to labour legislation as the first conscious intervention of “society” in the vital social process, a phrase upon which Bernstein leans heavily.
 
-## subsub
 But on the other hand the same capitalist development realises another transformation in the nature of the State. The present State is, first of all, an organisation of the ruling class. It assumes functions favouring social developments specifically because, and in the measure that, these interests and social developments coincide, in a general fashion, with the interests of the dominant class. Labour legislation is enacted as much in the immediate interest of the capitalist class as in the interest of society in general. But this harmony endures only up to a certain point of capitalist development. When capitalist development has reached a certain level, the interests of the bourgeoisie, as a class, and the needs of economic progress begin to clash even in the capitalist sense. We believe that this phase has already begun. It shows itself in two extremely important phenomena of contemporary social life: on the one hand, the policy of tariff barriers, and on the other, militarism. These two phenomena have played an indispensable, and in that sense a progressive and revolutionary role in the history of capitalism. Without tariff protection the development of large industry would have been impossible in several countries. But now the situation is different.
 
 At present, protection does not serve so much to develop young industry as to maintain artificially certain aged forms of production.

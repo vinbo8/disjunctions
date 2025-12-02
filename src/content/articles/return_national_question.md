@@ -1,14 +1,13 @@
 ---
-title:  Wage Labour & Capital 
+title:  The Return of the National Question
+date: 2023-06-02
 draft: true
-order: 5
 block: 1
 authors: 
-    - karl-marx
-    - friedrich-engels
-image: "./img/p2.jpg"
+    - chris-harman
+image: "../images/germany_future.jpg"
 
-abstract: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+abstract: "It has become almost an orthodoxy to say that the great divide in the world today is between nationalisms."
 ---
 This pamphlet first appeared in the form of a series of leading articles in the Neue Rheinische Zeitung, beginning on April 4th, 1849. The text is made up of from lectures delivered by Marx before the German Workingmen’s Club of Brussels in 1847. The series was never completed. The promise “to be continued,” at the end of the editorial in Number 269 of the newspaper, remained unfulfilled in consequence of the precipitous events of that time: the invasion of Hungary by the Russians [Tsarist troops invaded Hungary in 1849 to keep the Austrian Hapsburg dynasty in power], and the uprisings in Dresden, Iserlohn, Elberfeld, the Palatinate, and in Baden [Spontaneous uprisings in Germany in May-July 1849, supporting the Imperial Constitution which were crushed in mid-July], which led to the suppression of the paper on May 19th, 1849. And among the papers left by Marx no manuscript of any continuation of these articles has been found.
 

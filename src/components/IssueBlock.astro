@@ -30,12 +30,12 @@
 </script>
 
 <div class="w-full" style={`background-color: ${issue.data.colour}`}>
-<div class="flex flex-col lg:flex-row mx-[6vw] py-24 items-center lg:items-start text-center lg:text-left">
-	<Image class="animate max-w-lg w-9/12 min-w-8 max-h-96 lg:max-h-max lg:w-[30%] object-contain mb-8 lg:mb-0 lg:mr-8"  src={issue.data.image} alt="" />
-	<div class="animate lg:px-0 lg:w-[70%]">
+<div class="flex flex-col lg:flex-row py-24 items-center lg:items-start text-center lg:text-left">
+	<Image class="animate max-w-lg w-9/12 min-w-8 max-h-96 lg:max-h-max lg:w-[40%] object-contain mb-8 lg:mb-0 lg:mr-8"  src={issue.data.image} alt="" />
+	<div class="animate lg:px-0 lg:w-[60%]">
 		<div id="title" class="mb-0 font-bold font-serif leading-[1] text-[clamp(4rem,7.25vw,7rem)]">issue {issueNumber}</div>
 		<div id="subtitle" class="mb-4 font-semibold font-sans leading-[0.9] -translate-y-[15%] text-[clamp(2rem,3.6vw,3.5rem)] whitespace-break-spaces"><a class="hover:underline">{issue.data.title}</a></div>
-		<div class="text-xl leading-[1.5] max-w-[70ch]"><Content /></div>
+		<div class="text-block-non-prose"><Content /></div>
 	</div>
 </div>
 </div>

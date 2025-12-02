@@ -5,13 +5,20 @@ const articleCollection = defineCollection({
 	schema: ({ image }) => z.object({
 		title: z.string(),
 		authors: z.array(reference('authors')),
-		draft: z.boolean(),
 		abstract: z.string(),
-		expand: z.boolean().default(false),
+		date: z.date(),
+		image: image(),
+		issue: z.number().optional(),
 		block: z.number(),
-		image: image().optional(),
-		order: z.number(),
-		time: z.string().time().optional(),
+		draft: z.boolean(),
+	})
+})
+
+const groupCollection = defineCollection({
+	type: 'content',
+	schema: z.object({
+		name: z.string(),
+		location: z.string(),
 	})
 })
 
@@ -38,6 +45,7 @@ export const collections = {
 	'authors': authorCollection,
 	'articles': articleCollection,
 	'issues': issueCollection,
+	'groups': groupCollection,
 }
 
 /*

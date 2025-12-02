@@ -1,11 +1,11 @@
 ---
 title: Critique of the Gotha Programme 
-order: 1
 authors: 
     - karl-marx
 draft: false
-block: 3
-image: "./img/p3.png"
+block: 1
+image: "../images/gotha.jpg"
+date: 2023-01-05
 abstract: "First part of the paragraph: Labor is the source of all wealth and all culture."
 ---	
 Labor is not the source of all wealth. Nature is just as much the source of use values (and it is surely of such that material wealth consists!) as labor, which itself is only the manifestation of a force of nature, human labor power. The above phrase is to be found in all children's primers and is correct insofar as it is implied that labor is performed with the appurtenant subjects and instruments. But a socialist program cannot allow such bourgeois phrases to pass over in silence the conditions that lone give them meaning. And insofar as man from the beginning behaves toward nature, the primary source of all instruments and subjects of labor, as an owner, treats her as belonging to him, his labor becomes the source of use values, therefore also of wealth. The bourgeois have very good grounds for falsely ascribing supernatural creative power to labor; since precisely from the fact that labor depends on nature it follows that the man who possesses no other property than his labor power must, in all conditions of society and culture, be the slave of other men who have made themselves the owners of the material conditions of labor. He can only work with their permission, hence live only with their permission.

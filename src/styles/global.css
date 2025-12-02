@@ -26,24 +26,29 @@
 }
 
 @layer components {
-  .issue_block_title {
-  }
-
   .default-hyper {
     @apply text-black hover:text-p-blue transition duration-300;
   }
   .invert-hyper {
     @apply text-black group-hover:text-white hover:text-p-blue transition duration-300;
   }
+
   .text-block {
-    @apply mx-[6vw] max-w-3xl
-    prose-p:tracking-normal prose-p:leading-8 prose-p:text-black 
-    prose-p:font-sans prose-p:my-4
-    prose-headings:font-sans
-    prose-headings:font-bold
-    prose-p:text-xl prose-h4:text-4xl
+    @apply mx-[6vw] !max-w-[90ch]
+    prose-p:tracking-normal prose-p:leading-[1.5] prose-p:text-black 
+    prose-p:font-sans prose-p:my-4 prose-p:text-xl
+    prose-headings:font-sans prose-headings:font-bold
+    prose-h4:text-4xl
     prose-h3:text-5xl lg:prose-h3:text-6xl prose-h3:my-8 prose-h3:font-serif
     prose-a:text-p-blue-dark prose-a:hover:underline
+  }
+
+  .text-block-non-prose {
+    @apply font-sans text-black text-xl tracking-normal leading-[1.5] my-4 max-w-[70ch]
+  }
+
+  .text-block-non-prose p {
+    @apply my-4;
   }
 
   .text-block-non-tw {
