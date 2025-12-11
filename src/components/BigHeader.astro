@@ -7,18 +7,19 @@ const base_url = import.meta.env.BASE_URL
 
 const { expand = true } = Astro.props;
 
-let width = expand ? "w-3/4 lg:w-full" : ""
-let top_menu = expand ? "hidden lg:flex" : "hidden"
+let width = expand ? "w-3/4 md:w-full" : ""
+let top_menu = expand ? "hidden md:flex" : "hidden"
 ---
 
 <script>
+	const maxHeaderHeight = 60
 	const pageContent = document.querySelector('#page-content') as HTMLElement;
 	const header = document.querySelector('#header') as HTMLElement;
 	const hamburger = document.querySelector('#hamburger') as HTMLElement;
 	const smallMenu = document.querySelector('#sm-menu') as HTMLElement;
 	const largeMenu = document.querySelector('#lg-menu') as HTMLElement;
 	
-	// largeMenu.style.bottom = `${48}px`;		
+	let lastScrollY = window.scrollY;
 
 	function moveLargeMenu() {
 		const headerHeight = header.offsetHeight;
@@ -29,7 +30,7 @@ let top_menu = expand ? "hidden lg:flex" : "hidden"
 		const imageHeight = headerHeight - (padTop + padBot); 
 		
 		const topLimit = padTop + (imageHeight * 0.95);
-		const botLimit = headerHeight - (80 / 2);
+		const botLimit = headerHeight - (maxHeaderHeight / 2);
 		const midpoint = (headerHeight + window.scrollY) / 2;
 
 		let top = Math.max(topLimit, midpoint);
@@ -41,10 +42,22 @@ let top_menu = expand ? "hidden lg:flex" : "hidden"
 		largeMenu.style.right = `${right}px`
 	}
 
+	function hideSmallMenu() {
+		if(!largeMenu.offsetParent) {
+			if (window.scrollY > lastScrollY) {
+				header.classList.add("-translate-y-full");
+			} else {
+				header.classList.remove("-translate-y-full");
+			}
+			lastScrollY = window.scrollY;
+		}
+	}
+
 	function drawShadow() {
+		// this is the check for whether or not we're in the big menu
 		if(largeMenu.offsetParent) {
 			const headerHeight = header.offsetHeight;
-			const maxScroll = headerHeight - 80;
+			const maxScroll = headerHeight - maxHeaderHeight;
 			const scrollY = window.scrollY;
 			const opacity = Math.min(0.1, (scrollY / (10 * maxScroll)))
 			const shadowString = `0 4px 6px -1px rgba(0,0,0,${opacity}), 0 2px 4px -2px rgba(0,0,0,${opacity})`;
@@ -67,7 +80,7 @@ let top_menu = expand ? "hidden lg:flex" : "hidden"
 		const headerHeight = header.offsetHeight;
 
 		if (largeMenu.offsetParent) {
-			header.style.top = `-${headerHeight - 80}px`;
+			header.style.top = `-${headerHeight - maxHeaderHeight}px`;
 			if(smallMenu.classList.contains('show-nav')) {
 				switchMenuType();
 			}
@@ -90,6 +103,7 @@ let top_menu = expand ? "hidden lg:flex" : "hidden"
 	window.addEventListener('resize', moveLargeMenu);
 	window.addEventListener('resize', drawShadow);
 	window.addEventListener('scroll', moveLargeMenu);
+	// window.addEventListener('scroll', hideSmallMenu);
 	window.addEventListener('scroll', drawShadow);
 
 	const observer = new ResizeObserver(updateStickyOffset);
@@ -97,37 +111,43 @@ let top_menu = expand ? "hidden lg:flex" : "hidden"
 </script>
 
 <!-- includes mobile menu -->
-<header id="header" class="sticky z-50 top-0 bg-white flex flex-col items-center h-full w-full font-serif px-[2vw] py-[16px] lg:pb-10 lg:py-0 header-shadow">
+<header id="header" class="sticky z-50 top-0 bg-white flex flex-col items-center 
+				h-full w-full font-serif px-[2vw] py-[16px] md:pb-10 md:py-0 header-shadow">
 						   
 	<!-- just the header -->
-	<div class="flex flex-row lg:flex-col w-full text-4xl items-center max-h-max">
-		<div class=`${width} max-h-[64px] lg:max-h-full flex justify-start`>
-			<Image src={logoImage} alt="" id="banner" class="h-auto w-auto max-h-[64px] lg:w-full lg:max-h-full" />		
+	<div class="flex flex-row md:flex-col w-full text-4xl items-center max-h-max">
+		<div class=`${width} max-h-[32px] md:max-h-full flex justify-start print:w-full print:justify-center`>
+			<Image src={logoImage} alt="" id="banner" class="h-auto w-auto max-h-[32px] md:w-full md:max-h-full" />		
 		</div>
 
 		<ul id="lg-menu" class=`${top_menu} invisible ml-auto space-x-20 absolute top-0 right-0 
-					lg:text-2xl xl:text-3xl`>
-			<li><a href="/articles">Articles</a></li>
-			<li><a href="/">Issues</a></li>
-			<li><a>Support us</a></li>
-			<li><a href="/about">About</a></li>
+					md:text-xl lg:text-2xl xl:text-3xl`>
+			<li><a href="/articles">articles</a></li>
+			<li><a href="/">issues</a></li>
+			<li><a>support</a></li>
+			<li><a href="/about">about</a></li>
 
 		</ul>
 
-		<div class=`w-1/4 lg:hidden text-right`>
+		<div class="w-1/4 md:hidden print:hidden text-right flex flex-row justify-end">
 			<button id="hamburger">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<!-- <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+				</svg> -->
+				<svg viewBox="0 0 24 24" fill="none" class="w-8 h-8" xmlns="http://www.w3.org/2000/svg">
+					<path d="M5 8 H19 M5 12 H19 M5 16 H19" stroke="#464455" stroke-linecap="round" stroke-linejoin="round"></path>
 				</svg>
 			</button>
 		</div>
 
+
+		
 	</div>
-	<div id="sm-menu" class="text-2xl flex flex-col border-black hide-nav w-full bg-white z-50 fixed items-center">
-		<div class="py-4"><a href="/articles">Articles</a></div>
-		<div class="py-4"><a href="/">Issues</a></div>
-		<div class="py-4"><a>Support us</a></div>
-		<div class="py-4"><a href="/about">About</a></div>
+	<div id="sm-menu" class="text-2xl flex flex-col border-black hide-nav w-full bg-white z-50 fixed items-center justify-center">
+		<div class="py-2"><a href="/articles">articles</a></div>
+		<div class="py-2"><a href="/">issues</a></div>
+		<div class="py-2"><a>support</a></div>
+		<div class="py-2"><a href="/about">about</a></div>
 	</div>
 </header>
 

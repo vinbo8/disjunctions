@@ -7,6 +7,7 @@ const { entity } = Astro.props;
 const { Content } = await entity.render();
 
 let authors = null;
+
 if (entity.data.authors) {
 	authors = await getEntries(entity.data.authors)
 }
@@ -19,9 +20,9 @@ if (entity.data.colour === null) {
 <!-- <div class="border-b-2 border-black" style={`background-color: ${entity.data.colour}`}>	 -->
 <div class="flex flex-row items-center mb-8 pt-16 w-full gap-x-12" data-aos="fade-in">
 	<!-- <Image src={entity.data.image} alt="" class="block mb-8 max-h-72 w-auto object-contain" /> -->
-	<div class="text-left max-w-3xl flex flex-col">
-		<div class="text-5xl lg:text-6xl font-bold mb-2"><a href={`${import.meta.env.BASE_URL}/${entity.slug}`}>{entity.data.title}</a></div>
-		<div class="font-serif text-3xl lg:text-2xl italic mb-6">{entity.data.abstract ? entity.data.abstract:<Content />}</div>
+	<div class="text-left max-w-3xl flex flex-col print:text-center">
+		<div class="text-5xl lg:text-6xl font-bold mb-2">{entity.data.title ? entity.data.title:entity.data.name}</div>
+		<div class="font-serif text-xl lg:text-2xl italic mb-6">{entity.data.abstract ? entity.data.abstract:<Content />}</div>
 		{authors && <div class="font-serif text-xl lg:text-2xl uppercase"><AuthorList authors={authors} /><br></div>}
 	</div>
 </div>

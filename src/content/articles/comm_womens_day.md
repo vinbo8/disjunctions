@@ -6,6 +6,7 @@ block: 1
 draft: true
 authors: 
     - clara-zetkin 
+    - theodor-adorno
 image: "../images/womens_day.jpg"
 abstract: Storms of enthusiasm greeted the motion.
 ---

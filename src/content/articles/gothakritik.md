@@ -2,6 +2,7 @@
 title: Critique of the Gotha Programme 
 authors: 
     - karl-marx
+    - theodor-adorno
 draft: false
 block: 1
 image: "../images/gotha.jpg"

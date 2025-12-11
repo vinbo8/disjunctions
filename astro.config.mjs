@@ -1,11 +1,6 @@
 import { defineConfig } from "astro/config";
-import sitemap from "@astrojs/sitemap";
-
 import tailwindcss from '@tailwindcss/vite';
-
-
 import mdx from '@astrojs/mdx';
-
 
 // https://astro.build/config
 export default defineConfig(
@@ -13,11 +8,15 @@ export default defineConfig(
 {
   markdown: {
     remarkPlugins: [],
-    rehypePlugins: ['rehype-slug'],
+    rehypePlugins: [],
     shikiConfig: {
       theme: 'poimandres',
       langs: [],
       wrap: false
+    },
+    remarkRehype: {
+      footnoteLabel: "Endnotes",
+      footnoteBackContent: "[^]",
     }
   },
 

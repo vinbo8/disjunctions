@@ -13,10 +13,8 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-    --font-sans: 'Source Sans 3', serif;
+    --font-sans: 'ABC Diatype', serif;
     --font-serif: 'Hoefler Text', 'Material', serif;
-
-    --leading-body: 24pt;
 
     --color-p-red-light: #D98E73;
     --color-p-red: #d9583b;
@@ -34,26 +32,38 @@
   }
 
   .text-block {
-    @apply mx-[6vw] !max-w-[90ch]
+    @apply mx-auto !max-w-[100ch]
     prose-p:tracking-normal prose-p:leading-[1.5] prose-p:text-black 
-    prose-p:font-sans prose-p:my-4 prose-p:text-xl
+    prose-p:font-sans prose-p:my-4 prose-p:text-[1.33rem]
     prose-headings:font-sans prose-headings:font-bold
     prose-h4:text-4xl
     prose-h3:text-5xl lg:prose-h3:text-6xl prose-h3:my-8 prose-h3:font-serif
     prose-a:text-p-blue-dark prose-a:hover:underline
   }
 
-  .text-block-non-prose {
-    @apply font-sans text-black text-xl tracking-normal leading-[1.5] my-4 max-w-[70ch]
+  .text-block-no-prose {
+    @apply mx-auto !max-w-[100ch]
+    tracking-normal leading-[1.5] text-black 
+    font-sans my-4 text-[1.33rem]
   }
 
-  .text-block-non-prose p {
-    @apply my-4;
+  .footnotes ol * {
+    @apply text-base font-normal leading-[0.5] !text-gray-600;
   }
 
-  .text-block-non-tw {
-    @apply mx-auto px-[6vw] !max-w-4xl
-    tracking-normal leading-relaxed font-sans
+  hr {
+    border: none;
+    height: auto;          /* ✅ un-kills the pseudo-element */
+    text-align: center;
+  }
+
+  hr::before {
+    content: "*";
+    font-size: 2rem;
+  }
+
+  li::marker {
+    @apply text-base font-serif text-gray-600;
   }
 
   .animate {
@@ -73,18 +83,19 @@
     max-height: 0%;
     padding-top: 0px;
     padding-bottom: 0px;
+    opacity: 0;
     border-bottom: 0;
     overflow: hidden;
-    transition: all 0.15s ease-out allow-discrete;
+    transition: opacity 0.15s ease;
   }
 
   .show-nav {
+    opacity: 1;
     max-height: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     overflow: hidden;
-    /* transition: all max-height 1.5s ease-out; */
-    transition: all 0.15s ease-in allow-discrete;
+    transition: opacity 0.35s ease allow-discrete;
   }
 
   .fix-content {
@@ -133,4 +144,14 @@
   src: url(../../public/fonts/material-icons-latin-400-normal.ttf);
 	font-weight: normal;
 	font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABC Diatype';
+  src: url(../../public/fonts/ABCDiatypeVariable-Trial.woff2) format("woff2-variations");
+}
+
+@font-face {
+  font-family: 'ABC Social';
+  src: url(../../public/fonts/ABCSocialVariable-Trial.woff2) format("woff2-variations");
 }

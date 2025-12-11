@@ -6,26 +6,27 @@ const { frontmatter } = Astro.props;
 ---
 
 <meta charset="utf-8">
-<Wrapper title="Disjunctions" expand={true}>	
+<Wrapper title="Disjunctions" noindex={true}>	
 	<!-- <div class="flex flex-row mx-auto lg:mx-[15vw] items-center pt-16 w-full gap-x-12" data-aos="fade-in">
 		<div class="text-center lg:text-left w-full flex flex-col">
 			<div class="text-5xl lg:text-7xl font-bold mb-2">{frontmatter.title}</div>
 		</div>
 	</div> -->
 
-	<div class="animate flex flex-col items-center font-serif">
-		<div class="text-block resize-animate py-6">
-		<h3>about us</h3>
+	<div class="relative grid grid-cols-12 w-full md:px-[5%]">
+		<div class="animate flex flex-col items-center font-serif col-span-full md:col-span-8 md:col-start-3">
+			<div class="text-block resize-animate py-6">
+			<h3>about us</h3>
+			<p><i>Disjunctions</i> is a magazine run by critical researchers and practitioners of science and technology. We work to author, translate, and publish work that engages with today's digital realities and the vast transformation of society brought about by various kinds of technological advances. Our focus is both theoretical and applied. We solicit content of all types - from radical critique to practical interventions; from anti-surveillance guides and digital subversion to Marxian analysis and anti-colonial technoscience.</p> 
+			<p>Without positing a clear break from capitalism, <i>Disjunctions</i> aims to create a point of convergence for work seeking to explain and unravel its specificities in the digital age. The magazine positions itself at the intersection of critical theory, technological practice, and activist praxis. Untethered to any specific analytical framework, it aims to chart paths beyond technological determinism and the fetishisation of technical artefacts, towards a horizon where technology contributes to human dignity and freedom.</p>
+			<p>We draw inspiration from the industrial-era struggles for autonomy over technological progress and the demands for knowledge concerning machines, their political economy, and their educational, social, and cultural dimensions.  Against the shadow of a looming global techno-monopoly, we borrow from worldwide struggles to democratise technology, emphasising the agency of people to create and repurpose technology in the way that best serves their collective emancipation.</p>
+			<p>We welcome contributions that span a wide range of themes, including: theoretical engagements with contemporary debates on technology and labour; ethnographies of digital environments and their underlying material and infrastructural conditions; analyses of how contemporary technologies might echo, refract, and reconfigure broader histories of debate on the the structuring of knowledge and social order; investigations of technoscientific development in the global South(s), with attention to both internal formations and polarised relations with the North; and practical resources — such as guides, manuals, or manifestos — that aim to oppose, subvert, or reimagine configurations of technological hegemony.</p>
 
-		<p><i>Disjunctions</i> is a magazine run by critical researchers and practitioners of science and technology. We work to author, translate, and publish work that engages with today's digital realities and the vast transformation of society brought about by various kinds of technological advances. Our focus is both theoretical and applied. We solicit content of all types - from radical critique to practical interventions; from anti-surveillance guides and digital subversion to Marxian analysis and anti-colonial technoscience.</p> 
-		<p>Without positing a clear break from capitalism, <i>Disjunctions</i> aims to create a point of convergence for work seeking to explain and unravel its specificities in the digital age. The magazine positions itself at the intersection of critical theory, technological practice, and activist praxis. Untethered to any specific analytical framework, it aims to chart paths beyond technological determinism and the fetishisation of technical artefacts, towards a horizon where technology contributes to human dignity and freedom.</p>
-		<p>We draw inspiration from the industrial-era struggles for autonomy over technological progress and the demands for knowledge concerning machines, their political economy, and their educational, social, and cultural dimensions.  Against the shadow of a looming global techno-monopoly, we borrow from worldwide struggles to democratise technology, emphasising the agency of people to create and repurpose technology in the way that best serves their collective emancipation.</p>
-		<p>We welcome contributions that span a wide range of themes, including: theoretical engagements with contemporary debates on technology and labour; ethnographies of digital environments and their underlying material and infrastructural conditions; analyses of how contemporary technologies might echo, refract, and reconfigure broader histories of debate on the the structuring of knowledge and social order; investigations of technoscientific development in the global South(s), with attention to both internal formations and polarised relations with the North; and practical resources — such as guides, manuals, or manifestos — that aim to oppose, subvert, or reimagine configurations of technological hegemony.</p>
+			<h3>editorial</h3>
 
-		<h3>editorial</h3>
+			<p>Contact the editorial team with any questions, comments and article pitches at <a href="mailto:editorial@disjunctionsmag.com">editorial@disjunctionsmag.com</a>. You can also find us on <a href="https://bsky.app/profile/disjunctionsmag.bsky.social">Bluesky</a>, <a href="https://x.com/disjunctionsmag">Twitter/X</a>, and <a href="https://www.instagram.com/disjunctionsmag/">Instagram</a>.</p>
 
-		<p>Contact the editorial team with any questions, comments and article pitches at <a href="mailto:editorial@disjunctionsmag.com">editorial@disjunctionsmag.com</a>. You can also find us on <a href="https://bsky.app/profile/disjunctionsmag.bsky.social">Bluesky</a>, <a href="https://x.com/disjunctionsmag">Twitter/X</a>, and <a href="https://www.instagram.com/disjunctionsmag/">Instagram</a>.</p>
-
+			</div>
 		</div>
 	</div>
 </Wrapper>

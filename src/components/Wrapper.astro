@@ -17,6 +17,7 @@
 	import '@fontsource/metropolis'
 	import '@fontsource/lato'
 	import '@fontsource/source-sans-3'
+	import '@fontsource/junction'
 
 	import '@fontsource/source-sans-3/300.css'
 	import '@fontsource/source-sans-3/400.css'
@@ -27,20 +28,17 @@
 	import 'aos/dist/aos.css'; 
 
 	import BigHeader from "@components/BigHeader";
-	import SmallHeader from "@components/SmallHeader";
 	import Head from "@components/Head";
   	import '../styles/global.css'
-	// import "../style/base.css"
 
-	const {title, expand} = Astro.props;
-	const Header = expand ? BigHeader : SmallHeader
+	const {title, noindex = false} = Astro.props;
 ---
 <html lang="en">
 <head>
-	<Head title={title} />
+	<Head title={title} noindex={noindex} />
 </head>
 <body class="selection:bg-p-blue selection:text-white">	
-	<Header />
+	<BigHeader />
 	<div id="page-content" class="mx-[6vw]">
 		<slot />
 	</div>

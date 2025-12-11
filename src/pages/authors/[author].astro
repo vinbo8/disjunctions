@@ -2,8 +2,9 @@
 import { getCollection } from "astro:content";
 import { Debug } from 'astro:components';
 import Wrapper from "@components/Wrapper"
-import VerticalBlock from "@components/VerticalBlock";
-import { getEntries } from "astro:content";
+import OuterBlock from "@components/OuterBlock";
+import ArticleBanner from "@components/ArticleBanner";
+import { Image } from "astro:assets"
 
 export async function getStaticPaths() {
 	const authors = await getCollection('authors')
@@ -27,11 +28,17 @@ articles = articles.filter((x) => x.data.authors.map((y) => y.id).includes(autho
 	.sort((a, b) => (slug2issue(a.slug) < slug2issue(b.slug)) ? 1 : -1)
 ---
 
-<Wrapper title={author} expand={true}>
-	<div class="py-12" data-aos="fade-in">
-		<div class="text-5xl lg:text-6xl font-bold mb-2">{author.data.name}</div>
-		<div class="text-block-non-prose text-2xl text-left"><Content /></div>
-	</div>
+<Wrapper title={author}> 
+	<div class="flex flex-col">
+		<ArticleBanner entity={author} />
 
-	{articles.map((i) => <VerticalBlock article={i} />)} 
+		<div class="grid grid-cols-12">
+			<div class="flex flex-row flex-wrap items-stretch justify-center col-span-full md:col-span-8">
+				{articles.map((i) => <OuterBlock article={i} isTrio={false} />)} 
+			</div>
+			<div class="hidden md:flex justify-center col-span-4">
+				<Image id="sideslash" class="object-contain" src="/img/slash.png" height="100" width="100" alt="" />
+			</div>
+		</div>
+	</div>
 </Wrapper>

@@ -1,7 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 import { Image } from "astro:assets"
-import Banner from "@components/Banner";
 import Wrapper from "@components/Wrapper"
 import ArticleBanner from "@components/ArticleBanner";
 
@@ -19,14 +18,14 @@ const { article } = Astro.props
 const { Content } = await article.render()
 ---
 
-<!-- <div class="text-center font-sans text-base basis-full leading-relaxed"> -->
-<Wrapper title={article.data.title} expand={true}>
-	<div class="flex flex-col mx-[10%] items-center">
+<Wrapper title={article.data.title}>
+	<div class="flex flex-col items-center">
 		<ArticleBanner entity={article} />
 		<Image src={article.data.image} alt="" class="my-8 sm:mb-12 w-min max-w-6/12 max-h-128 object-contain" />
-		<div class="flex flex-col items-center w-full">
-			<div class="prose text-block"><Content />
-			</div>
+		<div id="slashparent" class="relative grid grid-cols-12 w-full md:px-[5%] overflow-visible">
+			<div class="hidden md:block col-span-2"><Image id="sideslash" class="sticky top-[50vh] mt-[50vh] -translate-y-1/2 self-start" src="/img/slash.png" height="100" width="100" alt="" /></div>
+			<div class="prose text-block col-span-full md:col-span-8 md:col-start-3"><Content /></div>
+			<div class="hidden md:block col-span-2 col-start-11"></div>
 		</div>
 	</div>
 
@@ -36,11 +35,3 @@ const { Content } = await article.render()
 	</script>
 
 </Wrapper>
-
-
-		<!-- <div class="max-width flex flex-col font-serif text-center items-center py-12 border-b-2 border-black">
-			<div class="mb-8 sm:mb-12"><Image src={article.data.image} alt="" class="w-min max-h-72 object-contain" /></div>
-			<div class="mb-4 text-5xl">{article.data.title}</div>
-			<div class="mb-8 font-sans uppercase text-2xl"><AuthorList authors={authors} /><br></div>
-			<div class="max-w-3xl text-lg">{article.data.abstract}</span></div>
-		</div> -->

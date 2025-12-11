@@ -1,6 +1,5 @@
 ---
 import { getCollection } from "astro:content";
-import Banner from "@components/Banner";
 import Wrapper from "@components/Wrapper";
 import OuterBlock from "@components/OuterBlock";
 
@@ -26,7 +25,6 @@ articles = articles.sort((a, b) => a.data.date < b.data.date ? -1 : 1);
 
 
 <Wrapper title="Disjunctions">
-	<Banner entity={issue} />
 	<div class="flex flex-row flex-wrap justify-around items-stretch">
 		{articles.map((i) => <OuterBlock article={i} />)}
 	</div>

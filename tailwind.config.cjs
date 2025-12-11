@@ -5,7 +5,6 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				/* vesper libre; alegeraya */
 				serif: ['Hoefler Text', 'Material', ...defaultTheme.fontFamily.serif],
 				sans: ['Source Sans Pro', ...defaultTheme.fontFamily.sans],
 			},
