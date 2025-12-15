@@ -9,7 +9,7 @@ const articleCollection = defineCollection({
 		date: z.date(),
 		image: image(),
 		issue: z.number().optional(),
-		block: z.number(),
+		block: z.number().optional(),
 		draft: z.boolean(),
 	})
 })
@@ -30,6 +30,7 @@ const issueCollection = defineCollection({
 		image: image(),
 		date: z.date(),
 		colour: z.string(),
+		mode: z.string(),
 	})
 })
 

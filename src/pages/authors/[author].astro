@@ -17,7 +17,6 @@ export async function getStaticPaths() {
 }
 
 const { author } = Astro.props
-const { Content } = await author.render()
 // const articles = (await getCollection('articles'))
 function slug2issue(slug) {
 	console.log(slug);

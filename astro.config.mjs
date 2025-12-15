@@ -15,7 +15,7 @@ export default defineConfig(
       wrap: false
     },
     remarkRehype: {
-      footnoteLabel: "Endnotes",
+      footnoteLabel: "Notes",
       footnoteBackContent: "[^]",
     }
   },

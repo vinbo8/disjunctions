@@ -3,7 +3,6 @@
 import { getCollection, getEntry } from "astro:content";
 import Wrapper from "@components/Wrapper";
 import IssueBlock from "@components/IssueBlock";
-import {Content} from "../content/documents/about.md";
 
 let issues = (await getCollection('issues'))
 issues = issues.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
