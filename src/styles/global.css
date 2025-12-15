@@ -63,7 +63,7 @@
   }
 
   hr {
-    @apply border-0 h-auto text-center !my-0;
+    @apply border-0 border-none h-auto text-center !my-0;
   }
 
   hr::before {
