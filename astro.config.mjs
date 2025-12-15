@@ -20,7 +20,7 @@ export default defineConfig(
     }
   },
 
-  site: 'https://disjunctionsmag.com',
+  site: import.meta.env.PROD ? "https://disjunctionsmag.com" : "http://localhost:4321",
 
   // base: '/disjunctions',
 

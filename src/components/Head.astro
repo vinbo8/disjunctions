@@ -1,5 +1,7 @@
 ---
-const {title, noindex} = Astro.props;
+const {title, abstract, image, noindex} = Astro.props;
+var summary = abstract ? abstract : "Disjunctions is a magazine dedicated to analysis and critique of contemporary technoscience"
+var cover = image ? image : "https://disjunctionsmag.com/img/favicon.png"
 ---
 <meta charset="utf-8" />
 <title>{title}</title>
@@ -14,16 +16,16 @@ const {title, noindex} = Astro.props;
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="generator" content={Astro.generator} >
 
-<meta property="og:title" content="Disjunctions Magazine">
-<meta property="og:site_name" content="Disjunctions Magazine">
-<meta property="og:description" content="Disjunctions is a magazine dedicated to analysis and critique of contemporary developments in science and technology." />
-<meta property="og:image" content="https://disjunctionsmag.com/img/favicon.png">
+<meta property="og:title" content={title}>
+<meta property="og:site_name" content="Disjunctions">
+<meta property="og:description" content={summary}>
+<meta property="og:image" content={cover}>
 <meta property="og:url" content="https://disjunctionsmag.com">
 <meta property="og:type" content="website">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Disjunctions Magazine">
-<meta name="twitter:description" content="Disjunctions is a magazine dedicated to analysis and critique of contemporary developments in science and technology." />
+<meta name="twitter:title" content={title}>
+<meta name="twitter:description" content={summary}>
 <meta name="twitter:image" content="https://disjunctionsmag.com/img/favicon.png"> 
 <meta name="twitter:image:alt" content="Disjunctions logo">
 

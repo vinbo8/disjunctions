@@ -27,11 +27,11 @@
 	import Head from "@components/Head";
   	import '../styles/global.css'
 
-	const {title, noindex = false} = Astro.props;
+	const {title, abstract, image, noindex = false} = Astro.props;
 ---
 <html lang="en">
 <head>
-	<Head title={title} noindex={noindex} />
+	<Head title={title} abstract={abstract} image={image} noindex={noindex} />
 </head>
 <body class="selection:bg-p-blue selection:text-white">	
 	<BigHeader />

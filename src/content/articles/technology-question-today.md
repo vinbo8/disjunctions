@@ -1,5 +1,5 @@
 ---
-title: The Technology Question Today
+title: "The Technology Question Today"
 # issue: 1
 date: 2025-12-11
 draft: false
