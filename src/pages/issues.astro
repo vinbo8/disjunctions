@@ -1,0 +1,17 @@
+---
+// import { published } from "@data/post"
+import { getCollection, getEntry } from "astro:content";
+import Wrapper from "@components/Wrapper";
+import IssueBlock from "@components/IssueBlock";
+
+let issues = (await getCollection('issues'))
+issues = issues.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+---
+
+<Wrapper title="Disjunctions">	
+	<div class="flex flex-row flex-wrap justify-around items-stretch">
+		{issues.map((i, n) => <IssueBlock issue={i} number={n} />)}
+	</div>
+
+
+</Wrapper>

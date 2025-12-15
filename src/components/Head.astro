@@ -3,7 +3,12 @@ const {title, noindex} = Astro.props;
 ---
 <meta charset="utf-8" />
 <title>{title}</title>
-<link rel="icon" type="image/png" href="/img/favicon.svg" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+<link rel="manifest" href="/img/site.webmanifest">
+
 <link rel="canonical" href="https://disjunctionsmag.com/" />
 <meta name="description" content="Disjunctions is a magazine dedicated to analysis and critique of contemporary developments in science and technology." />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,7 +25,7 @@ const {title, noindex} = Astro.props;
 <meta name="twitter:title" content="Disjunctions Magazine">
 <meta name="twitter:description" content="Disjunctions is a magazine dedicated to analysis and critique of contemporary developments in science and technology." />
 <meta name="twitter:image" content="https://disjunctionsmag.com/img/social-preview.png"> 
-<meta name="twitter:image:alt" content="The Disjunctions logo">
+<meta name="twitter:image:alt" content="Disjunctions logo">
 
 {noindex && <meta name="robots" content="noindex, nofollow">}
 

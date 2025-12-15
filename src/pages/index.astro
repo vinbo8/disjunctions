@@ -2,16 +2,14 @@
 // import { published } from "@data/post"
 import { getCollection, getEntry } from "astro:content";
 import Wrapper from "@components/Wrapper";
-import IssueBlock from "@components/IssueBlock";
+import OuterBlock from "@components/OuterBlock";
 
-let issues = (await getCollection('issues'))
-issues = issues.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+let articles = await getCollection('articles')
+articles = articles.sort((a, b) => a.data.date < b.data.date ? -1 : 1);
 ---
 
-<Wrapper title="Disjunctions">	
+<Wrapper title="Disjunctions">
 	<div class="flex flex-row flex-wrap justify-around items-stretch">
-		{issues.map((i, n) => <IssueBlock issue={i} number={n} />)}
+		{articles.map((i) => <OuterBlock article={i} isTrio={true} />)} 
 	</div>
-
-
 </Wrapper>
