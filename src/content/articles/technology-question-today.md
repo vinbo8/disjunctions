@@ -40,4 +40,4 @@ Taken together, these concerns shape *Disjunctions* as a space for a rigorous cr
 
 [^5]:  Nick Dyer-Witheford, *Cyber-Proletariat: Global Labour in the Digital Vortex*, 2015; Christian Fuchs, *Digital Labour and Karl Marx,* 2014\.
 
-[^6]:  For a recent attempt at such a synthesis, see: Nancy Fraser, “Behind Marx’s Hidden Abode.” *New Left Review,* March–April 2014\.
+[^6]:  For a recent attempt at such a synthesis, see: Nancy Fraser, “Behind Marx’s Hidden Abode”. *New Left Review,* March–April 2014\.
