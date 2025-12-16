@@ -25,7 +25,7 @@ const { Content } = await article.render()
 <Wrapper title={article.data.title} abstract={article.data.abstract} image={ogUrl}>
 	<div class="flex flex-col items-center pb-8">
 		<ArticleBanner entity={article} />
-		<Image src={article.data.image} alt="" class="my-8 sm:mb-12 w-7/12 max-w-[960px] object-contain" />
+		<Image src={article.data.image} alt="" class="my-8 sm:mb-12 w-7/12 min-w-[480px] max-w-[960px] object-contain" />
 		<div id="slashparent" class="relative grid grid-cols-12 w-full lg:px-[5%] overflow-visible">
 			<div class="hidden lg:block col-span-2"><Image id="sideslash" class="sticky top-[50vh] mt-[50vh] -translate-y-1/2 self-start" src="/img/slash.png" height="100" width="100" alt="" /></div>
 			<div class="prose text-block col-span-full lg:col-span-8 lg:col-start-3"><Content /></div>
