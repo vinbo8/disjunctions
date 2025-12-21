@@ -7,8 +7,8 @@ import { getCollection, render } from 'astro:content';
 export async function GET(context) {
   const articles = await getCollection('articles');
   return rss({
-    title: 'Buzz’s Blog',
-    description: 'A humble Astronaut’s guide to the stars',
+    title: 'Disjunctions Magazine',
+    // description: 'A humble Astronaut’s guide to the stars',
     site: context.site,
     items: await Promise.all(
         articles.map(async (article) => {
