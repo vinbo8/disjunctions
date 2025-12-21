@@ -20,6 +20,7 @@
   "dependencies": {
     "@astrojs/markdown-remark": "^6.0.1",
     "@astrojs/mdx": "^4.2.6",
+    "@astrojs/rss": "^4.0.14",
     "@fontsource/adamina": "^5.1.1",
     "@fontsource/alegreya": "^5.0.13",
     "@fontsource/alice": "^5.1.1",
@@ -49,7 +50,10 @@
     "bootstrap": "^5.3.3",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-slug": "^5.0.1",
+    "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
+    "remark-html": "^16.0.1",
+    "sanitize-html": "^2.17.0",
     "shiki": "^0.10.1",
     "tailwindcss": "^4.0.12",
     "unist-util-visit": "^5.0.0",
