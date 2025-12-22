@@ -10,6 +10,8 @@ export async function GET(context) {
     title: 'Disjunctions Magazine',
     description: 'A new magazine dedicated to the analysis and critique of contemporary technoscience.',
     site: context.site,
+    trailingSlash: false,
+    stylesheet: "/pretty-feed-v3.xsl",
     items: await Promise.all(
         articles.map(async (article) => {
             const rendered = await remark().use(html).process(article.body);
@@ -18,7 +20,7 @@ export async function GET(context) {
                 title: article.data.title,
                 pubDate: article.data.date,
                 description: article.data.abstract,
-                link: `/blog/${article.slug}/`,
+                link: `/${article.slug}/`,
                 content: sanitizeHtml(rendered.value)
                 };
             })
