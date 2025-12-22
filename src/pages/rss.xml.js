@@ -8,7 +8,7 @@ export async function GET(context) {
   const articles = await getCollection('articles');
   return rss({
     title: 'Disjunctions Magazine',
-    // description: 'A humble Astronaut’s guide to the stars',
+    description: 'A new magazine dedicated to the analysis and critique of contemporary technoscience.',
     site: context.site,
     items: await Promise.all(
         articles.map(async (article) => {
