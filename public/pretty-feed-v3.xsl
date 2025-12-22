@@ -130,7 +130,7 @@ This file is in BETA. Please test and contribute to the discussion:
                 </a>
               </h3>
               <small class="text-gray">
-                Published: <xsl:value-of select="pubDate" />
+                Published: <xsl:value-of select="substring-before(pubDate, ' 00:00:00 GMT')" />
               </small>
             </div>
           </xsl:for-each>
