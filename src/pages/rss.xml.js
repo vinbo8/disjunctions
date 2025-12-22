@@ -11,11 +11,11 @@ export async function GET(context) {
     description: 'A new magazine dedicated to the analysis and critique of contemporary technoscience.',
     site: context.site,
     trailingSlash: false,
+    format: "atom",
     stylesheet: "/pretty-feed-v3.xsl",
     items: await Promise.all(
         articles.map(async (article) => {
             const rendered = await remark().use(html).process(article.body);
-            console.log(rendered)
             return {
                 title: article.data.title,
                 pubDate: article.data.date,
