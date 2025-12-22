@@ -125,28 +125,28 @@
 /* Register your custom font family and tell the browser where to find it. */
 @font-face {
 	font-family: 'Hoefler Text';
-  src: url(../../public/fonts/HoeflerText-Regular.ttf);
+  src: url(../../public/fonts/hoeflertext-regular-webfont.woff2);
 	font-weight: normal;
 	font-style: normal;
   font-display: swap;
 }
 @font-face {
 	font-family: 'Hoefler Text';
-  src: url(../../public/fonts/HoeflerText-Black.ttf);
+  src: url(../../public/fonts/hoeflertext-black-webfont.woff2);
 	font-weight: bold;
 	font-style: normal;
-  font-display: swap;
+  font-display: swap; 
 }
 @font-face {
 	font-family: 'Hoefler Text';
-  src: url(../../public/fonts/HoeflerText-Italic.ttf);
+  src: url(../../public/fonts/hoeflertext-italic-webfont.woff2);
 	font-weight: normal;
 	font-style: italic;
   font-display: swap;
 }
 @font-face {
 	font-family: 'Hoefler Text';
-  src: url(../../public/fonts/HoeflerText-BlackItalic.ttf);
+  src: url(../../public/fonts/hoeflertext-blackitalic-webfont.woff2);
 	font-weight: bold;
 	font-style: italic;
   font-display: swap;
