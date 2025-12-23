@@ -36,7 +36,7 @@
 
   .text-block {
     @apply mx-auto !max-w-[90ch]
-    prose-p:tracking-normal prose-p:leading-[1.3] lg:prose-p:leading-[1.5] prose-p:text-black 
+    prose-p:tracking-normal prose-p:leading-[1.35] prose-p:text-black 
     prose-p:font-sans prose-p:my-4 prose-p:text-[1.2rem] lg:prose-p:text-[1.33rem]
     prose-headings:font-sans prose-headings:font-bold
     prose-h4:text-4xl
@@ -48,6 +48,10 @@
     @apply mx-auto !max-w-[100ch]
     tracking-normal leading-[1.5] text-black 
     font-sans my-4 text-[1.33rem]
+  }
+
+  .footnotes > h2 {
+    @apply !static !w-auto !h-auto !m-0 !p-0 !overflow-visible !whitespace-normal !border-0
   }
 
   .footnotes ol * {
@@ -120,6 +124,15 @@
   .resize-animate {
     transition: all 0.15s ease-in allow-discrete;
   }
+
+  /* .footnotes::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.2;
+    margin-bottom: 2rem;
+  } */
 }
 
 /* Register your custom font family and tell the browser where to find it. */
