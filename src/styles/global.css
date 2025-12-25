@@ -39,6 +39,7 @@
     prose-p:tracking-normal prose-p:leading-[1.35] prose-p:text-black 
     prose-p:font-sans prose-p:my-4 prose-p:text-[1.2rem] lg:prose-p:text-[1.33rem]
     prose-headings:font-sans prose-headings:font-bold
+    prose-h1:text-5xl lg:prose-h1:text-6xl prose-h1:my-8 prose-h1:font-serif
     prose-h4:text-4xl
     prose-h3:text-5xl lg:prose-h3:text-6xl prose-h3:my-8 prose-h3:font-serif
     prose-a:text-p-blue prose-a:hover:underline
