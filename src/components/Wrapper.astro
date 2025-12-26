@@ -41,7 +41,10 @@
 	<script>
 		// @ts-ignore
 		import AOS from 'aos'; 
-		AOS.init({once: true, offset:0}); 
+		AOS.init({once: true, offset: 60}); 
+		document.addEventListener('astro:page-load', () => {
+			AOS.refreshHard()
+		})
 	</script> 
 	<!-- <Footer /> -->
 </body>

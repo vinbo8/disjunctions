@@ -1,4 +1,6 @@
 ---
+import { ClientRouter } from "astro:transitions";
+
 const {title, abstract, image, noindex} = Astro.props;
 var summary = abstract ? abstract : "Disjunctions is a magazine dedicated to analysis and critique of contemporary technoscience"
 var cover = image ? image : "https://disjunctionsmag.com/img/favicon.png"
@@ -30,6 +32,8 @@ var cover = image ? image : "https://disjunctionsmag.com/img/favicon.png"
 <meta name="twitter:image:alt" content="Disjunctions logo">
 
 {noindex && <meta name="robots" content="noindex, nofollow">}
+
+<ClientRouter />
 
 <script is:inline>
 function animate() {

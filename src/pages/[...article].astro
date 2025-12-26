@@ -27,15 +27,15 @@ const { Content } = await article.render()
 		<ArticleBanner entity={article} />
 		<Image src={article.data.image} alt="" class="my-8 sm:mb-12 w-7/12 min-w-[480px] max-w-[960px] object-contain"
 			   widths={[480, 640, 800, 960, 1280, 1600]} sizes="(max-width: 823px) 480px, (max-width: 1646px) 58.33vw, 960px" />
-		<div id="slashparent" class="relative grid grid-cols-12 w-full lg:px-[5%] overflow-visible">
+		<div class="relative grid grid-cols-12 w-full lg:px-[5%] overflow-visible">
 			<div class="hidden lg:block col-span-2"><Image id="sideslash" class="sticky top-[50vh] mt-[50vh] -translate-y-1/2 self-start" src="/img/slash.png" height="100" width="100" alt="" /></div>
-			<div class="prose text-block col-span-full lg:col-span-8 lg:col-start-3"><Content /></div>
+			<div id="body-text" class="prose text-block col-span-full lg:col-span-8 lg:col-start-3"><Content /></div>
 			<div class="hidden lg:block col-span-2 col-start-11"></div>
 		</div>
 	</div>
 
 	<script>
-		const paragraphs = document.querySelectorAll("p");
+		const paragraphs = document.querySelectorAll("#body-text > p");
 		[...paragraphs].map(p => p.setAttribute("data-aos", "fade-in"));
 	</script>
 
