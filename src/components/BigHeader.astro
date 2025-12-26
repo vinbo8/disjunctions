@@ -61,7 +61,7 @@ let top_menu = expand ? "hidden md:flex" : "hidden"
 			const maxScroll = headerHeight - maxHeaderHeight;
 			const scrollY = window.scrollY;
 			const opacity = Math.min(0.1, (scrollY / (10 * maxScroll)))
-			const shadowString = `0 4px 6px -1px rgba(0,0,0,${opacity}), 0 2px 4px -2px rgba(0,0,0,${opacity})`;
+			const shadowString = `0 2px 3px -1px rgba(0,0,0,${opacity}), 0 1px 2px -1px rgba(0,0,0,${opacity})`;
 			header.style.boxShadow = shadowString;
 		}
 		else
@@ -119,7 +119,7 @@ let top_menu = expand ? "hidden md:flex" : "hidden"
 
 <!-- includes mobile menu -->
 <header id="header" transition:persist class="sticky z-50 top-0 bg-white flex flex-col items-center 
-				h-full w-full font-serif px-[2vw] py-[16px] md:pb-10 md:py-0 header-shadow">
+				h-full w-full font-serif px-[2vw] py-[16px] md:pb-10 md:py-0 header-shadow md:shadow-none">
 						   
 	<!-- just the header -->
 	<div class="flex flex-row md:flex-col w-full text-4xl items-center max-h-max">
