@@ -29,7 +29,6 @@ let top_menu = expand ? "hidden md:flex" : "hidden"
 		const padTop = parseInt(window.getComputedStyle(header)["padding-top"])
 		const padBot = parseInt(window.getComputedStyle(header)["padding-bottom"])
 		const imageHeight = headerHeight - (padTop + padBot); 
-		
 		const topLimit = padTop + (imageHeight * 0.95);
 		const botLimit = headerHeight - (maxHeaderHeight / 2);
 		const midpoint = (headerHeight + window.scrollY) / 2;

@@ -5,9 +5,6 @@
 @tailwind utilities;
  */
 @layer base {
-  a {
-    @apply hover:text-p-blue transition duration-100;
-  }
 } 
 
 @plugin "@tailwindcss/typography";
@@ -23,6 +20,10 @@
 }
 
 @layer components {
+  a {
+    @apply hover:text-p-blue transition duration-300;
+  }
+
   ::selection {
     @apply bg-p-blue text-white;
   }
@@ -35,21 +36,14 @@
     font-variant: small-caps;
   }
 
-  .default-hyper {
-    @apply text-black hover:text-p-blue transition duration-300;
-  }
-  .invert-hyper {
-    @apply text-black group-hover:text-white hover:text-p-blue transition duration-300;
-  }
-
   .text-block {
     @apply mx-auto !max-w-[90ch]
     prose-p:tracking-normal prose-p:leading-[1.35] prose-p:text-black 
-    prose-p:font-sans prose-p:my-4 prose-p:text-[1.2rem] lg:prose-p:text-[1.33rem]
+    prose-p:font-sans prose-p:mb-8 prose-p:text-[1.2rem] lg:prose-p:text-[1.33rem]
     prose-headings:font-sans prose-headings:font-bold
-    prose-h1:text-5xl lg:prose-h1:text-6xl prose-h1:my-8 prose-h1:font-serif
+    prose-h1:text-5xl lg:prose-h1:text-6xl prose-h1:mb-8 mb-0 prose-h1:font-serif
     prose-h4:text-4xl
-    prose-h3:text-5xl lg:prose-h3:text-6xl prose-h3:my-8 prose-h3:font-serif
+    prose-h3:text-5xl lg:prose-h3:text-6xl prose-h3:mb-8 prose-h3:font-serif
     prose-a:text-p-blue prose-a:hover:underline
   }
 
