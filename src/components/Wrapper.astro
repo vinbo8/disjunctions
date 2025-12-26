@@ -33,11 +33,12 @@
 <head>
 	<Head title={title} abstract={abstract} image={image} noindex={noindex} />
 </head>
-<body class="selection:bg-p-blue selection:text-white">	
+<body class="flex flex-col min-h-screen">	
 	<BigHeader />
-	<div id="page-content" class="mx-[6vw]">
+	<div id="page-content" class="mx-[6vw] flex-1">
 		<slot />
 	</div>
+	<!-- <Footer class="m-0"/> -->
 	<script>
 		// @ts-ignore
 		import AOS from 'aos'; 
@@ -46,6 +47,5 @@
 			AOS.refreshHard()
 		})
 	</script> 
-	<!-- <Footer /> -->
 </body>
 </html>

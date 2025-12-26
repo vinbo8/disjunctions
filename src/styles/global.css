@@ -23,6 +23,14 @@
 }
 
 @layer components {
+  ::selection {
+    @apply bg-p-blue text-white;
+  }
+
+  ::-moz-selection {
+    @apply bg-p-blue text-white;
+  }
+
   .small-caps {
     font-variant: small-caps;
   }
