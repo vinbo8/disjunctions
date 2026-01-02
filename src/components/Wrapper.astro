@@ -25,6 +25,7 @@
 	import BigHeader from "@components/BigHeader";
 	import Footer from "@components/Footer";
 	import Head from "@components/Head";
+	import ConsentBanner from '@components/ConsentBanner';
   	import '../styles/global.css'
 
 	const {title, abstract, image, noindex = false} = Astro.props;
@@ -39,13 +40,7 @@
 		<slot />
 	</div>
 	<!-- <Footer class="m-0"/> -->
-	<script>
-		// @ts-ignore
-		import AOS from 'aos'; 
-		AOS.init({once: true, offset: 60}); 
-		document.addEventListener('astro:page-load', () => {
-			AOS.refreshHard()
-		})
-	</script> 
+	<!-- <ConsentBanner /> -->
+	
 </body>
 </html>
