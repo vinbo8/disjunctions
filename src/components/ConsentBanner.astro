@@ -48,10 +48,16 @@
       showConsentModal()
       return
     }
+
+    const granted = consent === 'accepted'
     // Apply saved consent
     gtag('consent', 'update', {
       analytics_storage: consent === 'accepted' ? 'granted' : 'denied'
     })
+
+    if (granted) {
+      gtag('event', 'page_view')
+    }
   }
 
   document.addEventListener('DOMContentLoaded', applyConsentState)
