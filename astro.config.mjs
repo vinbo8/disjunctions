@@ -19,16 +19,13 @@ export default defineConfig(
       footnoteBackContent: "[^]",
     }
   },
-
   site: import.meta.env.PROD ? "https://disjunctionsmag.com" : "http://localhost:4321",
-
-  // base: '/disjunctions',
-
   trailingSlash: 'never',
-
   vite: {
     plugins: [tailwindcss()],
   },
-
   integrations: [mdx()],
+  redirects: {
+    "/technology-question-today": "/articles/technology-question-today"
+  }
 });

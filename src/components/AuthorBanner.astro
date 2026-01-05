@@ -4,6 +4,7 @@ import AuthorList from "./AuthorList.astro";
 import { getEntries } from "astro:content";
 
 const { entity } = Astro.props;
+const { Content } = await entity.render();
 
 const authors = await getEntries(entity.data.authors).catch(() => null);
 
@@ -13,11 +14,10 @@ if (entity.data.colour === null) {
 ---
 
 <!-- <div class="border-b-2 border-black" style={`background-color: ${entity.data.colour}`}>	 -->
-<div class="flex flex-row items-center mb-2 w-full gap-x-12 print:justify-center">
+<div class="flex flex-row items-center mb-8   w-full gap-x-12 print:justify-center">
 	<!-- <Image src={entity.data.image} alt="" class="block mb-8 max-h-72 w-auto object-contain" /> -->
 	<div class="text-left max-w-4xl flex flex-col print:text-center">
-		<div class="font-sans text-4xl md:text-5xl lg:text-6xl font-bold leading-[0.9] mb-2" set:html={entity.data.title}></div>
-		<div class="font-serif text-xl md:text-2xl lg:text-3xl italic mb-4">{entity.data.abstract}</div>
-		<div class="font-serif text-base md:text-lg lg:text-xl small-caps"><AuthorList authors={authors} /><br></div>
+		<div class="text-4xl md:text-5xl lg:text-6xl font-bold leading-[0.9] mb-2" set:html={entity.data.name}></div>
+		<div class="font-serif text-base md:text-lg tracking-tight lg:text-xl mb-8"><Content /></div>
 	</div>
 </div>

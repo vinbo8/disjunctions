@@ -30,7 +30,7 @@
 
 	const {title, abstract, image, noindex = false} = Astro.props;
 ---
-<html lang="en">
+<html lang="en" class="scroll-pt-[68px]">
 <head>
 	<Head title={title} abstract={abstract} image={image} noindex={noindex} />
 </head>
@@ -40,7 +40,7 @@
 		<slot />
 	</div>
 	<!-- <Footer class="m-0"/> -->
-	<!-- <ConsentBanner /> -->
+	<ConsentBanner />
 	
 </body>
 </html>

@@ -1,17 +1,17 @@
 ---
-	const { authors, authorlink } = Astro.props
+	const { authors } = Astro.props
+	const hideLink = authors.map(a => a.slug).includes('the-editors')
 ---
 {
 	authors.map((author, i, {length}) => {
-	// var authorSlug = x.replace(/[.,]/g, '').replace(/\s/g, '-').toLowerCase()
 		if (length - 1 === i) {
-			return <span>{authorlink ? 
-							( <a href={`/authors/${author.slug}`}>{author.data.name}</a> ):
-							( <>{author.data.name}</> )}
+			return <span>{hideLink ? 
+							( <>{author.data.name}</> ):
+							( <a href={`/authors/${author.slug}`}>{author.data.name}</a> )}
 					</span>
 		}
 		else {
-			return <span><a href={`/authors/${author.slug}`}>{author.data.name}</a>, </span>
+			return <span><a href={`/authors/${author.slug}`}>{author.data.name}</a> & </span>
 		}
 	})
 }

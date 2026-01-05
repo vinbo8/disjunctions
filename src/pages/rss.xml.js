@@ -20,7 +20,7 @@ export async function GET(context) {
                 title: article.data.title,
                 pubDate: article.data.date,
                 description: article.data.abstract,
-                link: `/${article.slug}/`,
+                link: `/articles/${article.slug}/`,
                 content: sanitizeHtml(rendered.value)
                 };
             })

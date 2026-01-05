@@ -118,12 +118,12 @@ let top_menu = expand ? "hidden md:flex" : "hidden"
 
 <!-- includes mobile menu -->
 <header id="header" transition:persist class="sticky z-50 top-0 bg-white flex flex-col items-center 
-				h-full w-full font-serif px-[2vw] py-[16px] md:pb-10 md:py-0 header-shadow md:shadow-none">
+				h-full w-full font-serif px-[6vw] md:px-[2vw] py-[16px] md:pb-10 md:py-0 header-shadow md:shadow-none">
 						   
 	<!-- just the header -->
 	<div class="flex flex-row md:flex-col w-full text-4xl items-center max-h-max">
 		<div class="w-3/4 md:w-full max-h-[32px] md:max-h-full flex justify-start print:w-full print:justify-center">
-			<Image src={logoImage} alt="" id="banner" class="h-auto w-auto max-h-[24px] md:w-full md:max-h-full" />		
+			<Image src={logoImage} alt="" id="banner" class="h-auto w-auto max-h-[32px] md:w-full md:max-h-full" />		
 		</div>
 
 		<ul id="lg-menu" class="hidden md:flex invisible ml-auto space-x-20 absolute top-0 right-0 
@@ -143,8 +143,6 @@ let top_menu = expand ? "hidden md:flex" : "hidden"
 			</button>
 		</div>
 
-
-		
 	</div>
 	<div id="sm-menu" class="text-2xl flex md:hidden flex-col border-black hide-nav w-full bg-white z-50 fixed items-center justify-center">
 		<div class="small-menu-item py-2"><a href="/">articles</a></div>

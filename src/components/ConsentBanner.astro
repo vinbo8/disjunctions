@@ -1,9 +1,60 @@
 ---
 ---
-<div id="cookie-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; background:#111; color:#fff; padding:16px; z-index:9999;">
-  <p style="margin:0 0 8px;">
+<!-- Modal -->
+<div id="consent-modal" transition:persist class="fixed bottom-[2vw] right-1/2 translate-x-1/2 md:right-[2vw] md:translate-x-0 w-full max-w-md p-6 shadow-xl border text-black bg-white z-[9999] opacity-0 pointer-events-none transition-opacity duration-300 ease-out">
+  <p class="mb-4 text-base">
     We use analytics cookies to understand how our site is used.
   </p>
-  <button id="accept-cookies">Accept</button>
-  <button id="reject-cookies">Reject</button>
+
+  <div class="flex justify-end gap-3">
+    <button onclick="acceptCookies()" class="cursor-pointer px-4 border py-2 text-sm border-black bg-p-blue text-white">Accept</button>
+    <button onclick="rejectCookies()" class="cursor-pointer px-4 py-2 text-sm border hover:border-black transition-all duration-100">Reject</button>
+  </div>
 </div>
+
+<script is:inline>
+  const CONSENT_KEY = 'cookieConsent'
+  const modal = document.getElementById('consent-modal')
+
+  function showConsentModal() {
+    modal.classList.remove('opacity-0', 'pointer-events-none')
+    modal.classList.add('opacity-100')
+  }
+
+  function hideConsentModal() {
+    modal.classList.remove('opacity-100')
+    modal.classList.add('opacity-0', 'pointer-events-none')
+  }
+
+  function acceptCookies() {
+    gtag('consent', 'update', {
+      analytics_storage: 'granted'
+    })
+    localStorage.setItem(CONSENT_KEY, 'accepted')
+    hideConsentModal()
+  }
+
+  function rejectCookies() {
+    gtag('consent', 'update', {
+      analytics_storage: 'denied'
+    })
+    localStorage.setItem(CONSENT_KEY, 'rejected')
+    hideConsentModal()
+  }
+
+  function applyConsentState() {
+    const consent = localStorage.getItem(CONSENT_KEY)
+    if (!consent) {
+      showConsentModal()
+      return
+    }
+    // Apply saved consent
+    gtag('consent', 'update', {
+      analytics_storage: consent === 'accepted' ? 'granted' : 'denied'
+    })
+  }
+
+  document.addEventListener('DOMContentLoaded', applyConsentState)
+  document.addEventListener('astro:page-load', applyConsentState)
+
+</script>

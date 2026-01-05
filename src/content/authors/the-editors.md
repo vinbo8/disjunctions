@@ -1,3 +1,3 @@
 ---
-name: The editors
+name: The Editors
 ---

@@ -32,7 +32,7 @@ const issueCollection = defineCollection({
 		image: image(),
 		date: z.date(),
 		colour: z.string(),
-		mode: z.string(),
+		active: z.boolean().default(true),
 	})
 })
 

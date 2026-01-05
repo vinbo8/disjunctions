@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import { Debug } from 'astro:components';
 import Wrapper from "@components/Wrapper"
 import OuterBlock from "@components/OuterBlock";
-import ArticleBanner from "@components/ArticleBanner";
+import AuthorBanner from "@components/AuthorBanner";
 import { Image } from "astro:assets"
 
 export async function getStaticPaths() {
@@ -29,10 +29,10 @@ articles = articles.filter((x) => x.data.authors.map((y) => y.id).includes(autho
 
 <Wrapper title={author}> 
 	<div class="flex flex-col">
-		<ArticleBanner entity={author} />
+		<AuthorBanner entity={author} />
 
 		<div class="grid grid-cols-12">
-			<div class="flex flex-row flex-wrap items-stretch justify-center col-span-full md:col-span-8">
+			<div class="flex flex-row flex-wrap items-stretch justify-start col-span-full md:col-span-8">
 				{articles.map((i) => <OuterBlock article={i} isTrio={false} />)} 
 			</div>
 			<div class="hidden md:flex justify-center col-span-4">

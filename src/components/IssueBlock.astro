@@ -1,5 +1,9 @@
 ---
-	import { Image } from 'astro:assets';
+	import { ACTION_ERROR_CODES, appendForwardSlash } from 'astro:actions';
+import { Image } from 'astro:assets';
+import { Debug } from 'astro:components';
+	import { getCollection } from 'astro:content';
+import { addIssueToContext, any } from 'astro:schema';
 	const { issue, number } = Astro.props
 	const { Content } = await issue.render()
 
@@ -9,36 +13,40 @@
 	const issueNumber = padNumber(number, 2);
 
 	const dateOptions = {year: 'numeric', month: 'long'};
-	const mode = issue.data.mode;
 	const date = issue.data.date.toLocaleDateString('en-GB', dateOptions);
+	let articles = await getCollection('articles')
+	articles = articles.sort((a, b) => a.data.date < b.data.date ? -1 : 1).filter((a) => a.data.issue == issue.slug)
+	const allAuthors = await getCollection('authors')
+
+	const articlesWithAuthors = articles.map(article => {
+		const authorIds = (article.data.authors ?? []).map(a => a.id);
+		const authors = allAuthors.filter(a => authorIds.includes(a.slug));
+		return {
+			...article,
+			authors
+		};
+	});
+	const maxCh = Math.max(...articlesWithAuthors.map(a => a.data.title.length));
 ---
 
-<script>
-	function getSize(element) {
-		const elementFontSizePx = parseFloat(getComputedStyle(element).fontSize);
-		const rootFontSizePx = parseFloat(getComputedStyle(document.documentElement).fontSize);
-		const fontSizeInRem = elementFontSizePx / rootFontSizePx;
-		return fontSizeInRem;
-	}
-
-	function logSizes() {
-		let title = document.getElementById("title");
-		let subtitle = document.getElementById("subtitle");
-		console.log(getSize(title) + "rem\t" + getSize(subtitle) + "rem");
-	}
-	window.addEventListener('resize', logSizes);
-	logSizes();
-
-</script>
-
 <div class="flex flex-col lg:flex-row items-center w-full lg:items-stretch text-center lg:text-left">
-	<Image class="max-w-lg w-9/12 min-w-8 max-h-96 lg:max-h-max lg:w-[30%] object-contain mb-8 lg:mb-0 lg:mr-8"  src={issue.data.image} alt={issue.data.title} width={512} sizes="(min-width: 1024px) 30vw, 75vw" />
+	<Image class="max-w-lg w-9/12 min-w-8 max-h-96 lg:max-h-max lg:w-[30%] object-contain mb-8 lg:mb-0 lg:mr-8" src={issue.data.image} alt={issue.data.title} width={512} sizes="(min-width: 1024px) 30vw, 75vw" />
 	<div class="lg:px-0 lg:w-[60%]">
 		<h1 id="title" class="mb-0 font-bold font-serif leading-[1] text-[clamp(4rem,7.25vw,7rem)]">issue {issueNumber}</h1>
 		<h2 id="subtitle" class="mb-4 font-semibold font-sans leading-[0.9] -translate-y-[15%] text-[clamp(2rem,3.6vw,3.5rem)] whitespace-break-spaces">{issue.data.title}</h2>
-		<div class="prose text-block mx-0">
-			{mode === "display" ? <Content />
-								: <Image id="sideslash" class="object-contain mx-auto lg:mx-0" src="/img/slash.png" height="100" width="100" alt="" />
+		<div class:list={{"prose": issue.data.active}}>
+			{issue.data.active ? 
+				<Content /> :
+				<div class="text-lg md:text-2xl font-sans text-black font-medium">
+					{articlesWithAuthors.map((a) => 
+						<div class="mb-1 ">
+							<span class="underline underline-offset-4 decoration-2"><a href={`/articles/${a.slug}`}>{a.data.title}</a></span>
+							<span class="inline-block px-2">/</span>
+							<span>{a.authors.map(w => w.data.name).join(" & ")}</span>
+						</div>
+					)}
+				{/* <Image id="sideslash" class="object-contain mx-auto lg:mx-0" src="/img/slash.png" height="100" width="100" alt="" /> */}
+				</div>
 			}
 		</div>
 	</div>

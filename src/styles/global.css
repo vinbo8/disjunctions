@@ -17,11 +17,12 @@
     --color-p-red: #d9583b;
     --color-p-red-dark: #D94423;
     --color-p-blue: #3137FD;
+    --color-p-grey: #474752
 }
 
 @layer components {
   a {
-    @apply hover:text-p-blue transition duration-300;
+    @apply hover:text-p-blue transition duration-200;
   }
 
   ::selection {
@@ -33,7 +34,7 @@
   }
 
   .small-caps {
-    font-variant: small-caps;
+    font-variant-caps: small-caps;
   }
 
   .text-block {
@@ -58,7 +59,7 @@
   }
 
   .footnotes ol * {
-    @apply text-base font-normal leading-[1.33] !text-neutral-600 font-serif;
+    @apply text-base font-normal leading-[1.25] !text-p-grey font-serif;
   }
 
   .data-footnote-backref {
@@ -79,7 +80,7 @@
   }
 
   li::marker {
-    @apply text-base font-serif text-neutral-600;
+    @apply text-base font-serif text-p-grey;
   }
 
   .animate {
@@ -141,25 +142,25 @@
 /* Register your custom font family and tell the browser where to find it. */
 @font-face {
 	font-family: 'Hoefler Text';
-  src: url(../../public/fonts/hoeflertext-regular-webfont.woff2);
+  src: url(../../public/fonts/HoeflerText-Regular.woff2);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Hoefler Text';
-  src: url(../../public/fonts/hoeflertext-black-webfont.woff2);
+  src: url(../../public/fonts/HoeflerText-Black.woff2);
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Hoefler Text';
-  src: url(../../public/fonts/hoeflertext-italic-webfont.woff2);
+  src: url(../../public/fonts/HoeflerText-Italic.woff2);
 	font-weight: normal;
 	font-style: italic;
 }
 @font-face {
 	font-family: 'Hoefler Text';
-  src: url(../../public/fonts/hoeflertext-blackitalic-webfont.woff2);
+  src: url(../../public/fonts/HoeflerText-BlackItalic.woff2);
 	font-weight: bold;
 	font-style: italic;
 }

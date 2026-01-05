@@ -1,6 +1,7 @@
 ---
 title: "The Technology Question Today"
 date: 2025-12-11
+genre: essay
 draft: false
 authors: 
     - the-editors 
@@ -30,7 +31,7 @@ Finally, it is crucial to adopt an internationalist worldview. Capitalism is a g
 
 Taken together, these concerns shape *Disjunctions* as a space for a rigorous critique of technology committed to emancipatory ends. *Disjunctions* will serve as a home for theoretically rich analyses of technocapitalism’s many contingencies; for studies of concrete manifestations of technocapitalist power; for reckonings with the resistances that emerge in response; and for finding common ground and building alliances between struggles around the world.
 
-[^1]:  These increasingly include immaterial assets, such as data and intellectual property. See: Cecilia Rikap, *Capitalism, Power and Innovation: Intellectual Monopoly Capitalism Uncovered*, 2021\. They also include large financial portfolios. See: Fernandez et al., “The Financialization of Big Tech”. *Stichting Onderzoek Multinationale* *Ondernemingen,* 2020\.
+[^1]:  These increasingly include immaterial assets, such as data and intellectual property. See: Cecilia Rikap, *Capitalism, Power and Innovation: Intellectual Monopoly Capitalism Uncovered*, 2021\. They also include large financial portfolios. See: Fernandez et al., “The Financialization of Big Tech”, *Stichting Onderzoek Multinationale* *Ondernemingen,* 2020\.
 
 [^2]:  A rich body of literature has focused on this. See: Harry Braverman, *Labor and Monopoly Capital,* 1974; David F. Noble, *Forces of Production: A Social History of Industrial Automation*, 1984\.  
 
@@ -40,4 +41,4 @@ Taken together, these concerns shape *Disjunctions* as a space for a rigorous cr
 
 [^5]:  Nick Dyer-Witheford, *Cyber-Proletariat: Global Labour in the Digital Vortex*, 2015; Christian Fuchs, *Digital Labour and Karl Marx,* 2014\.
 
-[^6]:  For a recent attempt at such a synthesis, see: Nancy Fraser, “Behind Marx’s Hidden Abode”. *New Left Review,* March–April 2014\.
+[^6]:  For a recent attempt at such a synthesis, see: Nancy Fraser, “Behind Marx’s Hidden Abode”, *New Left Review,* March–April 2014\.
