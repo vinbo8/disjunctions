@@ -40,7 +40,7 @@ import { addIssueToContext, any } from 'astro:schema';
 				<div class="text-lg md:text-2xl font-sans text-black font-medium">
 					{articlesWithAuthors.map((a) => 
 						<div class="mb-1 ">
-							<span class="underline underline-offset-4 decoration-2"><a href={`/articles/${a.slug}`}>{a.data.title}</a></span>
+							<span><a href={`/articles/${a.slug}`}>{a.data.title}</a></span>
 							<span class="inline-block px-2">/</span>
 							<span>{a.authors.map(w => w.data.name).join(" & ")}</span>
 						</div>
