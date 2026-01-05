@@ -55,7 +55,7 @@ This reliance on Palestinian datafication creates a form of asset dependency. Pa
 
 The neoliberal project that has turned Palestinian life into an asset for its colonisers may now be forced to confront the possibility of its own exhaustion, as the occupation devours its own data substrate — collapsing the promise of an economy of total knowability under the weight of the state’s genocidal logics. 
 
-[^1]:  Andy Clarno. *Neoliberal Apartheid: Palestine/Israel and South Africa after 1994*, 2019, p.15. 
+[^1]:  Andy Clarno, *Neoliberal Apartheid: Palestine/Israel and South Africa after 1994*, 2019, p.15. 
 
 [^2]:  Clarno, *Neoliberal Apartheid*, p.30.
 
