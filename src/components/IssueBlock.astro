@@ -20,13 +20,13 @@ import { addIssueToContext, any } from 'astro:schema';
 
 	const articlesWithAuthors = articles.map(article => {
 		const authorIds = (article.data.authors ?? []).map(a => a.id);
-		const authors = allAuthors.filter(a => authorIds.includes(a.slug));
+		// const authors = allAuthors.filter(a => authorIds.includes(a.slug));
+		const authors = authorIds.map(id => allAuthors.find(a => a.slug === id)).filter(Boolean); 
 		return {
 			...article,
 			authors
 		};
 	});
-	const maxCh = Math.max(...articlesWithAuthors.map(a => a.data.title.length));
 ---
 
 <div class="flex flex-col lg:flex-row items-center w-full lg:items-stretch text-center lg:text-left">
