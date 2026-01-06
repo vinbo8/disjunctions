@@ -52,7 +52,7 @@
     const granted = consent === 'accepted'
     // Apply saved consent
     gtag('consent', 'update', {
-      analytics_storage: consent === 'accepted' ? 'granted' : 'denied'
+      analytics_storage: granted ? 'granted' : 'denied'
     })
 
     if (granted) {
