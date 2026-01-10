@@ -1,32 +1,30 @@
 ---
-	import { ACTION_ERROR_CODES, appendForwardSlash } from 'astro:actions';
 import { Image } from 'astro:assets';
 import { Debug } from 'astro:components';
-	import { getCollection } from 'astro:content';
-import { addIssueToContext, any } from 'astro:schema';
-	const { issue, number } = Astro.props
-	const { Content } = await issue.render()
+import { getCollection } from 'astro:content';
+const { issue, number } = Astro.props
+const { Content } = await issue.render()
 
-	function padNumber(num, length) {
-  		return (num + 1).toString().padStart(length, '0');
-	}
-	const issueNumber = padNumber(number, 2);
+function padNumber(num, length) {
+	return (num + 1).toString().padStart(length, '0');
+}
+const issueNumber = padNumber(number, 2);
 
-	const dateOptions = {year: 'numeric', month: 'long'};
-	const date = issue.data.date.toLocaleDateString('en-GB', dateOptions);
-	let articles = await getCollection('articles')
-	articles = articles.sort((a, b) => a.data.date < b.data.date ? -1 : 1).filter((a) => a.data.issue == issue.slug)
-	const allAuthors = await getCollection('authors')
+const dateOptions = {year: 'numeric', month: 'long'};
+const date = issue.data.date.toLocaleDateString('en-GB', dateOptions);
+let articles = await getCollection('articles')
+articles = articles.sort((a, b) => a.data.date < b.data.date ? -1 : 1).filter((a) => a.data.issue == issue.slug)
+const allAuthors = await getCollection('authors')
 
-	const articlesWithAuthors = articles.map(article => {
-		const authorIds = (article.data.authors ?? []).map(a => a.id);
-		// const authors = allAuthors.filter(a => authorIds.includes(a.slug));
-		const authors = authorIds.map(id => allAuthors.find(a => a.slug === id)).filter(Boolean); 
-		return {
-			...article,
-			authors
-		};
-	});
+const articlesWithAuthors = articles.map(article => {
+	const authorIds = (article.data.authors ?? []).map(a => a.id);
+	// const authors = allAuthors.filter(a => authorIds.includes(a.slug));
+	const authors = authorIds.map(id => allAuthors.find(a => a.slug === id)).filter(Boolean); 
+	return {
+		...article,
+		authors
+	};
+});
 ---
 
 <div class="flex flex-col lg:flex-row items-center w-full lg:items-stretch text-center lg:text-left">

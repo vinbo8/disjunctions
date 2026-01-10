@@ -55,15 +55,15 @@ This reliance on Palestinian datafication creates a form of asset dependency. Pa
 
 The neoliberal project that has turned Palestinian life into an asset for its colonisers may now be forced to confront the possibility of its own exhaustion, as the occupation devours its own data substrate — collapsing the promise of an economy of total knowability under the weight of the state’s genocidal logics. 
 
-[^1]:  Andy Clarno, *Neoliberal Apartheid: Palestine/Israel and South Africa after 1994*, 2019, p.15. 
+[^1]:  Andy Clarno, *Neoliberal Apartheid: Palestine/Israel and South Africa After 1994*, 2019, p. 15. 
 
-[^2]:  Clarno, *Neoliberal Apartheid*, p.30.
+[^2]:  Clarno, *Neoliberal Apartheid*, p. 30.
 
 [^3]:  Palestinian Central Bureau of Statistics, *On the Occasion of International Workers’ Day: President of the Palestinian Central Bureau of Statistics Ms. Ola Awad Presents the Current Status of the Palestinian Labour Force*, 2019\. 
 
 [^4]:  Clarno, *Neoliberal Apartheid*, p. 42\.
 
-[^5]:  Kean Birch and Fabian Muniesa, eds. *Assetization: Turning things into assets in technoscientific capitalism*, 2020, pp.1-2. 
+[^5]:  Kean Birch and Fabian Muniesa, eds. *Assetization: Turning things into assets in technoscientific capitalism*, 2020, pp. 1-2. 
 
 [^6]:  Melinda Cooper, *Counterrevolution: Extravagance and austerity in public finance*, 2024, p. 17\. 
 
