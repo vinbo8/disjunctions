@@ -39,7 +39,7 @@
 
   .text-block {
     @apply mx-auto !max-w-[90ch]
-    prose-p:tracking-normal prose-p:leading-[1.35] prose-p:text-black 
+    prose-p:tracking-normal prose-p:leading-[1.35] prose-p:text-black
     prose-p:font-sans prose-p:mb-8 prose-p:text-[1.2rem] lg:prose-p:text-[1.33rem]
     prose-headings:font-sans prose-headings:font-bold
     prose-h1:text-5xl lg:prose-h1:text-6xl prose-h1:mb-8 mb-0 prose-h1:font-serif

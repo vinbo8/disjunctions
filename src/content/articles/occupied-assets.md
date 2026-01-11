@@ -93,7 +93,7 @@ The neoliberal project that has turned Palestinian life into an asset for its co
 
 [^19]:  Yuval Abraham, “‘Lavender’: The AI Machine Directing Israel’s Bombing Spree in Gaza”, *\+972 Magazine*, 25 April 2024\. 
 
-[^20]:  Olivia Solon, “Why did Microsoft fund an Israeli firm that surveils West Bank Palestinians?”, *NBC News,* 28 October 2019*.* 
+[^20]:  Olivia Solon, “Why did Microsoft fund an Israeli firm that surveils West Bank Palestinians?”, *NBC News,* 28 October 2019\. 
 
 [^21]:  “Anyvision / Oosto – DIMSE.” n.d. [https://dimse.info/anyvision-oosto/](https://dimse.info/anyvision-oosto/).
 
