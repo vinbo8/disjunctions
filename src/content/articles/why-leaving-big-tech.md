@@ -1,6 +1,6 @@
 ---
 title: "Why I'm Leaving Big Tech"
-date: 2026-01-11
+date: 2026-01-18
 genre: essay
 issue: 1
 draft: true

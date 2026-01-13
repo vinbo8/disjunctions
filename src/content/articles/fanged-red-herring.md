@@ -1,6 +1,6 @@
 ---
 title: "The Red Herring With Fangs"
-date: 2026-01-11
+date: 2026-02-15
 genre: essay
 issue: 1
 draft: true

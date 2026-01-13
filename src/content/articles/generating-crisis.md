@@ -1,6 +1,6 @@
 ---
-title: "Generating Crisis"
-date: 2026-01-11
+title: "Speculating Our Way Through Crisis"
+date: 2026-02-08
 genre: essay
 issue: 1
 draft: true
