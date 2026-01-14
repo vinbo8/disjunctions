@@ -41,7 +41,7 @@ const articlesWithAuthors = articles.map(article => {
 							{a.data.draft ? (
 								<span>{a.data.title}</span>
 								) : (
-								<span class="underline"><a href={a.slug}>{a.data.title}</a></span>
+								<span class="underline"><a href=`/articles/${a.slug}`>{a.data.title}</a></span>
 							)}
 							<span class="hidden md:inline-block px-2">/</span>
 							<span class="block md:inline font-normal">{a.authors.map(w => w.data.name).join(" & ")}</span>
