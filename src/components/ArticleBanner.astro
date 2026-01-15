@@ -14,7 +14,7 @@ const shortDate = new Date(entity.data.date).toLocaleDateString("en-US", {month:
 	<span class="col-span-3 font-serif text-xl md:text-2xl lg:text-3xl italic mb-4">{entity.data.abstract}</span>
 	<div class="flex flex-row col-span-2 gap-4 justify-between font-serif text-base md:text-lg lg:text-xl">
 		<span class="small-caps"><AuthorList authors={authors} /></span>
-		<span class="italic">{shortDate} · {entity.data.genre}{entity.data.issue && ` · issue ${entity.data.issue.toString().padStart(2, '0')}`}</span>
+		<span class="">{shortDate} · {entity.data.genre}{entity.data.issue && ` · issue ${entity.data.issue.toString().padStart(2, '0')}`}</span>
 	</div>
 
 	<figure class="col-start-2 mb-8 sm:mb-12 mt-8 w-full max-w-[880px] lg:max-w-[640px] xl:max-w-[768px] 2xl:max-w-[960px] object-cover">
