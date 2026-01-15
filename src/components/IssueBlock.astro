@@ -37,7 +37,7 @@ const articlesWithAuthors = articles.map(article => {
 				<Content /> :
 				<div class="text-lg md:text-2xl font-sans text-black font-medium">
 					{articlesWithAuthors.map((a) => 
-						<div class="mb-2">
+						<div class="mb-4">
 							{a.data.draft ? (
 								<span>{a.data.title}</span>
 								) : (
