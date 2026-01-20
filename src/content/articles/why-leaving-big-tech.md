@@ -46,7 +46,7 @@ Over the years, I have had the immense privilege of working with many incredibly
 
 And as I look to the future, I am both excited and nervous. I want to spend more time reading and engaging with critical scholarship.[^7] I want to spend more time in movement spaces. I want to find people who are thinking about alternatives to Big Tech and fighting back against the global slide into techno-fascism. I want to continue working on information access and reimagine very different futures for how we, as individuals and as society, experience information.[^8] I want to explore spaces where I can conduct research explicitly grounded in humanistic, anti-capitalist and anti-colonial values. I want to continue my work on emancipatory information access and realise my research as part of my emancipatory praxis.[^9] And above all, I want to build technology that humanises us, connects us, liberates us, and gives us joy. 
 
-"*Another world is not only possible, she is on her way. On a quiet day, I can hear her breathing.*"<br>
+*Another world is not only possible, she is on her way. On a quiet day, I can hear her breathing.*<br>
 <span class="block text-right"> — Arundhati Roy</span>
 
  Abolish Big Tech. Free Palestine.
