@@ -1,6 +1,6 @@
 ---
 title: "At Google"
-date: 2026-02-01
+date: 2026-01-25
 genre: essay
 issue: 1
 draft: true
