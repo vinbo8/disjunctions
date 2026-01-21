@@ -4,12 +4,52 @@ import logoImage from "../../public/img/favicon_old.svg"
 ---
 <footer  transition:persist>
     <div class="flex flex-row py-8 bg-black text-white items-center px-[6vw]">
-        <div class="flex flex-col w-1/2 items-start">
+        <div class="flex flex-col w-1/3 items-start">
             <p>instagram</p>
             <p>bluesky</p>
             <p>email</p>
             <p>rss</p>
         </div>
-        <Image src={logoImage} alt="" id="banner" class="mr-auto h-auto max-h-[32px] w-1/2 invert object-contain object-right" />		
+        <Image src={logoImage} alt="" id="banner" class="mr-auto h-auto max-h-[32px] w-1/3 invert object-contain" />		
+
+        <form id="signup-form" class="flex w-1/3">
+            <input id="email" type="text" placeholder="Email" class="flex-1 border px-2 py-1 bg-white text-black " />
+            <button type="submit" class="border px-3 py-1 rounded">Submit</button>
+        </form>
+        <span id="signup-text" class="hidden font-serif">Thank you for subscribing!</span>
     </div>
 </footer>
+
+<script>
+document.getElementById("signup-form").addEventListener("submit", async function(e) {
+  e.preventDefault();
+
+  const emailInput = document.getElementById("email") as HTMLInputElement | null;
+  if (!emailInput) return;
+  const email = emailInput.value;
+
+  const span = document.getElementById("signup-text");
+
+  const response = await fetch(
+    "https://api.convertkit.com/v3/forms/8956168/subscribe",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        api_key: "bvoR-mK-CC2ysnI8dwr6bA",
+        email: email,
+        form_id: 8956168
+      })
+    }
+  );
+
+  if (response.ok) { alert("ok") } else { alert("not ok") }
+  console.log(response);
+//   if (!response.ok) span.textContent = "Failed"
+//   this.toggleAttribute("hidden")
+//   span.toggleAttribute("hidden")
+
+});
+</script>
