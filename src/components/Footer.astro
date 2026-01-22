@@ -2,21 +2,32 @@
 import { Image } from "astro:assets"
 import logoImage from "../../public/img/favicon_old.svg"
 ---
-<footer  transition:persist>
-    <div class="flex flex-row py-8 bg-black text-white items-center px-[6vw]">
-        <div class="flex flex-col w-1/3 items-start">
-            <p>instagram</p>
-            <p>bluesky</p>
-            <p>email</p>
-            <p>rss</p>
+<footer transition:persist>
+    <div class="flex flex-row flex-wrap my-8 justify-center items-start px-[8vw] gap-y-8 font-serif text-xl">
+        <div class="flex flex-col flex-[1_1_0%] min-w-[100px] basis-1/4 items-start">
+          <span><a href="/">articles</a></span>
+          <span><a href="/issues">issues</a></span>
+          <span><a href="/support">support</a></span>
         </div>
-        <Image src={logoImage} alt="" id="banner" class="mr-auto h-auto max-h-[32px] w-1/3 invert object-contain" />		
 
-        <form id="signup-form" class="flex w-1/3">
-            <input id="email" type="text" placeholder="Email" class="flex-1 border px-2 py-1 bg-white text-black " />
-            <button type="submit" class="border px-3 py-1 rounded">Submit</button>
-        </form>
-        <span id="signup-text" class="hidden font-serif">Thank you for subscribing!</span>
+        <div class="flex flex-col flex-[1_1_0%] min-w-[100px]  basis-1/4 items-start">
+          <span><a href="/about">about</a></span>
+          <span><a href="mailto:contact@disjunctionsmag.com">contact </a>us</span>
+          <span><a href="/rss">rss</a></span>
+        </div>
+
+        <div class="flex flex-col flex-[1_1_0%] min-w-[100px] basis-1/4 items-start">
+          <span><a href="https://www.instagram.com/disjunctionsmag/">instagram</a></span>
+          <span><a href="https://bsky.app/profile/disjunctionsmag.bsky.social">bluesky</a></span>
+        </div>
+
+        <div class="flex flex-col min-w-[200px] flex-[2_0_0%] basis-1/4">
+            <span id="signup-text" class="transition">subscribe to our newsletter</span>
+            <form id="signup-form" class="flex flex-col">
+              <input id="email" type="text" placeholder="email address" class="italic max-w-fit border-b-2 mb-2 bg-white text-black focus:outline-none" />
+              <button type="submit" class="border max-w-fit px-1 hover:bg-p-blue hover:text-white transition">sign up</button>
+            </form>
+        </div>
     </div>
 </footer>
 
@@ -45,8 +56,24 @@ document.getElementById("signup-form").addEventListener("submit", async function
     }
   );
 
-  if (response.ok) { alert("ok") } else { alert("not ok") }
+  span.style.opacity = "0";
+  if (response.ok) { 
+    // span.textContent = "tank you for subscribing!"
+    setTimeout(() => {
+      span.textContent = "thank you for subscribing";
+      span.style.opacity = "1";
+  }, 300);
+    this.toggleAttribute("hidden");
+  }
+  else {
+    setTimeout(() => {
+      span.textContent = "something went wrong";
+      span.style.opacity = "1";
+  }, 300);
+    this.toggleAttribute("hidden");
+  }
   console.log(response);
+  // console.log(response);
 //   if (!response.ok) span.textContent = "Failed"
 //   this.toggleAttribute("hidden")
 //   span.toggleAttribute("hidden")

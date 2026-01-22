@@ -5,7 +5,8 @@ import { remark } from 'remark';
 import { getCollection, render } from 'astro:content';
 
 export async function GET(context) {
-  const articles = await getCollection('articles');
+  let articles = await getCollection('articles');
+  articles = articles.filter(a => !a.data.draft).sort((a, b) => a.data.date < b.data.date ? 1 : -1);
   return rss({
     title: 'Disjunctions Magazine',
     description: 'A new magazine dedicated to the analysis and critique of contemporary technoscience.',
