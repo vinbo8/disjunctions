@@ -25,9 +25,10 @@ function slug2issue(slug) {
 let articles = await getCollection('articles')
 articles = articles.filter((x) => x.data.authors.map((y) => y.id).includes(author.slug))
 	.sort((a, b) => (slug2issue(a.slug) < slug2issue(b.slug)) ? 1 : -1)
+
 ---
 
-<Wrapper title={author}> 
+<Wrapper title={author.data.name}> 
 	<div class="flex flex-col">
 		<AuthorBanner entity={author} />
 
