@@ -38,7 +38,7 @@
   }
 
   .text-block {
-    @apply mx-auto !max-w-[90ch]
+    @apply 
     prose-p:tracking-normal prose-p:leading-[1.35] prose-p:text-black
     prose-p:font-sans prose-p:mb-8 prose-p:text-[1.2rem] lg:prose-p:text-[1.33rem]
     prose-headings:font-sans prose-headings:font-bold

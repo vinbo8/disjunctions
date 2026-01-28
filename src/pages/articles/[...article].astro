@@ -27,7 +27,7 @@ const { Content } = await article.render()
 		<ArticleBanner entity={article} />
 		<div class="relative grid grid-cols-12 w-full lg:px-[5%] overflow-visible">
 			<div class="hidden lg:block col-span-2"><Image id="sideslash" class="sticky top-[50vh] mt-[50vh] -translate-y-1/2 self-start" src="/img/slash.png" height="100" width="100" alt="" /></div>
-			<div id="body-text" class="prose text-block col-span-full lg:col-span-8 lg:col-start-3"><Content /></div>
+			<div id="body-text" class="prose max-auto lg:max-w-[90ch] text-block col-span-full lg:col-span-8 lg:col-start-3"><Content /></div>
 			<div class="hidden lg:block col-span-2 col-start-11"></div>
 		</div>
 	</div>
