@@ -96,6 +96,12 @@
     box-shadow: 0 2px 3px -1px rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
   }
 
+  em, i {
+  font-style: normal;
+  font-variation-settings: "slnt" -12;
+  font-synthesis: none;
+  }
+
   .hide-nav {
     max-height: 0%;
     padding-top: 0px;
@@ -168,4 +174,5 @@
 @font-face {
   font-family: 'ABC Diatype';
   src: url(../../public/fonts/ABCDiatypeVariable-Trial.woff2) format("woff2-variations");
+  font-style: normal italic;
 }
