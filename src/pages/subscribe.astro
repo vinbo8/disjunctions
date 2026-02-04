@@ -1,0 +1,21 @@
+---
+// import { published } from "@data/post"
+import { getCollection, getEntry } from "astro:content";
+import Wrapper from "@components/Wrapper";
+import OuterBlock from "@components/OuterBlock";
+
+let articles = await getCollection('articles')
+articles = articles.filter(a => !a.data.draft).sort((a, b) => a.data.date < b.data.date ? 1 : -1);
+---
+
+<Wrapper title="Disjunctions" footer={false}>
+<div class="flex items-center justify-center py-8">
+	<div class="flex flex-col mx-auto font-serif items-center border-2 border-p-blue p-12">
+		<span id="signup-text" class="text-4xl transition mb-4">subscribe to our newsletter</span>
+		<form id="signup-form" class="flex flex-col">
+			<input id="email" type="text" placeholder="email address" class="text-center italic max-w-fit text-2xl border-b-2 mb-4 bg-white text-black focus:outline-none" />
+			<button type="submit" class="self-center border text-2xl max-w-fit px-1 hover:bg-p-blue hover:text-white transition">sign up</button>
+		</form>
+	</div>
+</div>
+</Wrapper>
