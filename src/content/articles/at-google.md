@@ -7,7 +7,7 @@ draft: false
 authors: 
     - no-tech-for-apartheid
 image: "../images/drop-nimbus.jpg"
-caption: "Image by No Tech for Apartheid"
+caption: "Image by No Tech for Apartheid."
 abstract: "Organising at the digital arms dealer"
 ---
 
