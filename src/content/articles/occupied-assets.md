@@ -8,7 +8,7 @@ authors:
     - sarah-fathallah
     - nick-mitchell 
 image: "../images/farocki-still.jpg"
-caption: Still taken from Harun Farocki's "Auge / Maschine III".
+caption: Still taken from Harun Farocki's "Auge / Maschine III"
 abstract: Israeli neoliberalism and the datafication of Palestinian life
 ---
 In his book *Neoliberal Apartheid,* Andy Clarno emphasises that “one of the most important impacts of neoliberal restructuring” is the “production of racialised surplus populations.”[^1] The domination of such populations takes the seemingly paradoxical form of their expulsion from the direct exploitation of their labour in the production process. Instead of exploitation, various forces — including displacement, automation, and financialisation — have resulted in a global expansion and proliferation of various forms of precarious life, as well as the emergence of new classes of disposable humanity. Tracking this process, Clarno leads us to Palestine, where this production of Palestinians as surplus humanity has been intrinsic to the Zionist state project. Indeed, he suggests, the neoliberal character of contemporary Israeli settler colonialism has emerged through calculatedly *avoiding* the exploitation of Palestinians as labourers.
