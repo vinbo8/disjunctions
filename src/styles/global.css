@@ -97,9 +97,9 @@
   }
 
   em, i {
-  font-style: normal;
-  font-variation-settings: "slnt" -12;
-  font-synthesis: none;
+    /* font-style: normal; */
+    font-variation-settings: "slnt" -12;
+    font-synthesis: none;
   }
 
   .hide-nav {

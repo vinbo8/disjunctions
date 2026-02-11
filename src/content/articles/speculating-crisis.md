@@ -1,0 +1,96 @@
+---
+title: "Speculating Our Way Through Crisis"
+date: 2026-02-08
+genre: essay
+issue: 1
+draft: false 
+authors: 
+    - tabea-krug
+image: "../images/dream-nightmare.jpg"
+abstract: Overaccumulation, hegemony and AI hype
+caption: "An abandoned construction project in Cyprus. Photo: Rogier Krens."
+---
+It is no secret that investments in generative AI are through the roof. The scale is staggering: in 2025 alone, the so-called *Magnificent 7* poured over $400 billion into AI infrastructure; Morgan Stanley estimate that global investment in data centres and hardware will approach $3 trillion by 2029, while OpenAI alone have secured contracts totalling more than $1 trillion.[^1] This is only the tip of the iceberg: today’s financial flows in the AI industry increasingly resemble the railroad expansions of the 19th century, well eclipsing the dot-com boom of the late 1990s. There is little doubt that we are witnessing one of the most significant reallocations of capital in modern economic history.
+
+There are, however, good reasons to believe that this enthusiasm rests on a fragile foundation. First, high revenue growth notwithstanding, these firms’ earnings remain but a fraction of cumulative investments.[^2] To date, there is no clear path to profitability for these vast, capital-intensive infrastructures, and little to suggest that such a path could even exist. Second, even if we put problems with short-term profitability aside, Silicon Valley appear to be caught in a circular investment loop.[^3] To wit, a triangular relationship has emerged between chip manufacturers, cloud providers, and AI firms, wherein actors like Nvidia invest heavily in AI firms and these firms, in turn, commit to purchasing vast amounts of hardware and renting cloud services from the same investors. This circularity artificially inflates revenues, creating the appearance of market depth that is underpinned by capital round-tripping, rather than by meaningful economic fundamentals.
+
+Productivity gains from generative AI, too, have remained modest.[^4] Improvements in core services remain elusive, as the brute-force scaling paradigm reaches a point of diminishing returns. This is driven by both the exhaustion of high-quality human data, and by the intrinsic architectural constraints of probabilistic modelling[^5] — constraints that will inhibit models from ever transcending the *stochastic parrot* stage to become true, systematic reasoning engines.[^6]
+
+Thus far, AI’s economic contribution appears to have been largely confined to accelerating existing routine activities rather than opening up new sources of value creation. Building on earlier waves of mechanisation that transformed factory work, generative AI imposes industrial rhythms on knowledge work, forcing the logic of automation upon labour processes that are ostensibly cognitive or creative.[^7] It is based on this that claims about AI-enabled productivity gains are often justified. However, historically, sustained economic surges have required fundamental upheavals in production, and since generative AI is based on statistical repetition of past patterns, it remains a tool of imitation. While this recombination offers value to capital by streamlining output and degrading labour, it lacks the ability to effect the transformative discoveries and the opening of new spheres of value creation that would be necessary to justify current investment levels.[^8] The idea that AI can replace human creativity and innovation, which are necessary for transformative discoveries and the opening of new spheres of value creation, remains something of a fantasy.
+
+---
+
+Given the widening gap between investments and profits, an important question arises: why does capital continue to pour into AI? The answer lies less in some sort of collective misjudgement on the part of investors than in the laws of motion of capital itself. As Marx observed, the accumulation of capital periodically reaches a threshold where existing capital can no longer be reinvested without further depressing the rate of profit.[^9] And in recent years, we have indeed witnessed a steadily increasing concentration of liquidity in the hands of a few tech monopolies, who are now faced with limited productive investment opportunities. The AI bubble should thus be read as a symptom rather than a cause of this crisis of overaccumulation. Immense volumes of surplus capital, unable to find sufficiently profitable outlets after decades of globally stagnating profit rates, flood into these highly speculative projects, in the hopes that they might one day turn a profit.[^10] And since these investments represent claims on future profits that have yet to be (and, indeed, may never be) realised, they transform into fictitious capital, exacerbating the decoupling of assets on corporate balance sheets and in stock markets from real production. The current hype bubble serves only to accelerate the expansion of these fictitious claims, concealing the fundamentally crisis-prone nature of the current accumulation regime.
+
+The extent to which the U.S. economy has become tethered to this speculative cycle is striking. 40% of real GDP growth in the preceding year was driven by the capital expenditure offensives undertaken by major technology firms, directed almost exclusively toward the AI sector.[^11] Without this massive spending, the U.S. economy would likely have entered a period of stagnation, or even formal recession.[^12] These investments are largely backed by the American state, which is securing the conditions for accumulation in the AI economy via subsidies, strategic industrial policy, and technocratic legislation. A crash in this bubble — which appears to be imminent — would reverberate through the global financial system, through pension funds and international investment chains, calling into question the very economic foundations of U.S. hegemony. And since leading tech firms are now considered too big to fail, it is highly likely that the state would aim to stabilise them, to cushion the blow with massive liquidity support and interest rate cuts.
+
+Yet, importantly, this bubble’s collapse would not mean the end of generative AI or the downfall of Big Tech. Lest we forget — monopolistic tech giants like Google and Amazon were themselves forged in the flames of the dot-com crash. Crisis, in these contexts, primarily serves a market-clearing function; it wipes out significant portions of (inflated) market value, and concentrates power and capital with the few monopolies that survive. As such, crisis does not lead to a return to some much-vaunted capitalist competitive equilibrium, but rather helps entrench the technological and economic dominance of a few capitalists.
+
+At the end of the day, it is the working classes that will bear the brunt of capital’s excesses, in rising living costs and the loss of jobs and savings — as we witnessed after the subprime mortgage crisis. The risks intrinsic to capitalism itself will once again be socialised. 
+
+---
+
+It is difficult, however, to characterise the current AI movement as a purely economic phenomenon. Indeed, the development and deployment of AI today are clearly driven by geopolitical forces, chief among which is the systemic rivalry between the United States and China. The American ruling classes believe in the strategic necessity of this technology for maintaining their hold over power. In accordance with this, what we are witnessing is a convergence between the profit motive and the American state’s project of global hegemony.[^13] This new geopolitical order is being shaped by struggles over code, data flows, semiconductor production, data centres, and related infrastructures.
+
+As trade barriers intensify and rival blocs coalesce, the AI race is emerging as a central instrument of modern imperialism, with technological supremacy determining future geopolitical and economic capacity.[^14] The United States is pursuing an offensive strategy, aiming to export its entire technology stack as a global standard through the so-called *AI Action Plan*. Corporations like OpenAI, Oracle, and Microsoft have rapidly oriented themselves in line with Trump’s declaration that the US would “do whatever it takes” to lead the world in AI.[^15] And while the United States indulges in massive infrastructural investments to entrench its digital hegemony, the costs of these expansions are rerouted to the Global South. The ruthless extraction of lithium and cobalt systematically destroys local livelihoods and ecosystems, long before a single server is powered on. Furthermore, the “intelligence” of these models is built upon the invisible labour of a vast workforce in the semi-periphery, where workers are paid subsistence wages to label data and moderate content. This creates a deepening technological dependency for semi-peripheral nations, relegating their role in global capitalism to that of raw material suppliers or captive markets for Western cloud monopolies, as they are then forced to lease back the very technologies that were built upon their own raw materials and labour.[^16] By controlling data centres, cloud infrastructure, and undersea cabling, tech corporations are appropriating the digital economy’s means of production and circulation, while simultaneously serving as the “eyes and ears” of the security apparatus — both overseas and at home.[^17] Infrastructure becomes the material foundation of geopolitical control, as the entire world — outside of China — is pushed further and further into dependency.
+
+The U.S. state’s alignment with Big Tech extends into the battlefield.[^18] The integration of artificial intelligence marks a turning point in U.S. defence strategy. While software has long automated military logistics, the current revolution lies in algorithmic autonomy: the ability for cheap, disposable machines to operate in swarms without direct human piloting. Through initiatives such as *Replicator*, the Pentagon is increasingly relying on mass-produced, autonomous drone swarms. Other initiatives include *Project Maven* for automated target recognition and *Joint All-Domain Command and Control* for networked operations management.
+
+The global periphery has already become a testing ground for these lethal innovations. In Ukraine, Palantir has deployed AI‑enabled software that integrates satellite imagery, drone footage, and battlefield reporting to support targeting decisions and present military options in near-real time, compressing what used to take hours into minutes and thereby shortening the “kill chain” on the battlefield.[^19] Meanwhile, in Gaza, Israel’s *Lavender* database uses behavioural and social metadata for large-scale targeting and execution. This combination of low-cost autonomous drones and pervasive data extraction is redefining modern warfare.[^20]
+
+Ultimately, this shift reveals the destructive maturity of the current global order. Technology is being instrumentalised, not to liberate humanity, but to refine the mechanisms of exploitation and warfare. Under the imperatives of capital, artificial intelligence is a tool of digital barbarism, cementing global dependencies and preemptively stifling any form of resistance. Yet it need not remain this way.
+
+---
+
+The current mania surrounding artificial intelligence does not resolve any of the fundamental contradictions of the capitalist mode of production: the growing concentration of wealth; the decline in the rate of profit; the overaccumulation of unproductive capital, and the intensified rivalry between imperialist powers that accompanies all of the above. Yet, tech elites have successfully imposed their vision of society, the future, and progress, as if no alternative could exist — or even be desirable. It is essential to shatter this narrative while avoiding a retreat into technophobia. Our task, rather, should be to free technology from the constraints imposed by capital.
+
+What, then, is at stake? As argued above, Big Tech’s infrastructure now functions as a core instrument of geopolitical power, and its ownership determines both who captures value and who shapes the future direction of technological development. In addition, digital technologies have not eliminated labour as much as concealed it. The tech industry rests on the collective work of millions — from programmers in imperial metropolises to precarious workers in the global South mining rare earth minerals for starvation wages — making questions of ownership and control of technology inseparable from the terrain of contemporary class struggle.
+
+Ultimately, reformist demands to increase taxation or break up monopolies are mere palliatives for a deeply broken system, since they leave the core problem of private investment and planning untouched, merely seeking to mitigate its worst excesses. Fundamental change requires the expropriation of Big Tech: not as an end in itself, but as a lever for a broader socialist transition that radically reorients how technology and its infrastructures are created and used; liberating them from their subordination to capital, and bringing them under the democratic control and management of those who develop, use, and are affected by them — workers and society as a whole.  
+ 	  
+The ground is shifting. As imperialist rivalries intensify and the global struggle for technological dominance sharpens, the AI bubble stands on the verge of a collapse that will profoundly undermine public faith in the current system. However, we cannot sit idle while Big Tech uses the chaos to consolidate its power. It is essential that we lay the organisational and political foundations today. We need bold visions that challenge the logics of private profit and extraction, replacing them with a framework of collective utility — through democratising economic planning and ensuring, ultimately, that technology functions as a public resource dedicated to meeting human needs and fostering global solidarity.[^21]   
+By organising around transitional demands, we need to connect immediate struggles — job losses, price hikes, and anti-militarisation efforts — to the fundamental contradictions of capitalism, exposing the deep conflict between collective labour and private ownership. The growing scepticism, fear, and resistance surrounding AI and the tech behemoths should also be seen as a political opportunity to dismantle the myth of capitalist inevitability. It is only by grounding our movement in demands that transcend the limits of reformism that we can lay the foundation for a future where technology serves the needs of society as a whole, rather than the imperatives of capital.
+
+We demand nothing less than sovereignty over the tools that shape our future.
+
+[^1]:  Rolfe Winkler, Nate Rattner, and Sebastian Herrera, “Big Tech’s $400 Billion AI Spending Spree Just Got Wall Street’s Blessing”, *The Wall Street Journal*, 31 July 2025; Andrew Sheets, “Who Will Fund AI’s $3 Trillion Ask?”, Morgan Stanley; Tabby Kinder and George Hammond, “OpenAI’s computing deals top $1tn”, *Financial Times*, 7 October 2025\.
+
+[^2]:  OpenAI, for instance, are not expected to turn a profit until at least 2029\. See: Bailey Lipschultz and Shirin Ghaffary, “OpenAI Expects Revenue Will Triple to $12.7 Billion This Year”, *Bloomberg*, 26 March 2025\.
+
+[^3]:  Emily Forgash and Agnee Ghosh, “OpenAI, Nvidia Fuel $1 Trillion AI Market With Web of Circular Deals”, *Bloomberg*, 7 October 2025\.
+
+[^4]:  A recent MIT study of 300 publicly announced AI initiatives found that 95% failed to increase profitability. See: “The GenAI Divide: State of AI in Business 2025”, *MIT NANDA*. McKinsey have reported similar results: in a survey of companies deploying generative AI, over 80% saw no measurable impact on earnings. See: “Seizing the agentic AI advantage”, *McKinsey & Company.*
+
+[^5]:  High-quality training data is projected to plateau between 2026 and 2032, creating a potential bottleneck for scaling language models. See: Pablo Villalobos *et al.*, “Position: will we run out of data? limits of LLM scaling based on human-generated data”, *Proceedings of the 41st International Conference on Machine Learning*, 2024. Using synthetic data to compensate is also no solution, since models trained on their own generations progressively lose information and experience functional decay. See: Ilia Shumailov *et al.*, “AI models collapse when trained on recursively generated data”, *Nature*, 2024\. For an analysis of the constraints of the transformer architecture, see:  Dieuwertje Luitse and Wiebke Denkena, “The Great Transformer: Examining the Role of Large Language Models in the Political Economy of AI”, *Big Data & Society*, 2021\.
+
+[^6]:  Emily M. Bender, Timnit Gebru, Angelina McMillan‑Major, and Shmargaret Shmitchell, “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”, *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 2021\. For a discussion on the scaling-dependent “emergent” abilities of language models, see: Jason Wei et al., “Emergent Abilities of Large Language Models”, *arXiv*, 2022; Rylan Schaeffer, Brando Miranda, and Sanmi Koyejo, “Are Emergent Abilities of Large Language Models a Mirage?”, *Advances in Neural Information Processing Systems*, 2023\.
+
+[^7]:  Vinit Ravishankar and Mostafa Abdou, “The Rise and Fall of the Knowledge Worker”, *Jacobin*, 2025\.
+
+[^8]:  This position is not unpopular with market liberals: Nobel laureate Daron Acemoglu acknowledges, for instance, that forecasts for economic growth from AI are likely to be far smaller than projections imply. See: Daron Acemoglu, “The Simple Macroeconomics of AI”, 2024\.
+
+[^9]:  Karl Marx, *Capital, Vol III.* ch. 25, 1894\.
+
+[^10]:  Aaron Benanav, *“Automation and the Future of Work”*, 2020; Guglielmo Carchedi and Michael Roberts, *“Capitalism in the 21st Century: Through the Prism of Value”*, 2022\.
+
+[^11]:  Ruchir Sharma, “America is now one big bet on AI”, *Financial Times*, 6 October 2025\.
+
+[^12]:  Deutsche Bank Research, “The world economy is in a few people's hands”, 24 September 2025\.
+
+[^13]:  Nick Dyer-Witheford and Alessandra Mularoni, “Cybernetic Circulation Complex. Big Tech and Planetary Crisis”, 2025\.
+
+[^14]:  Nick Srnicek, “Silicon Empires: The Fight for the Future of AI”, 2025\.
+
+[^15]:  Volker Briegleb, “Trump: ‘America will win the AI race’”, *heise online*, 24 July 2025\.
+
+[^16]:  Michael Kwet, *“Digital Degrowth: Technology in the Age of Survival”*, 2024\.
+
+[^17]:  Alessandro Coveri, Claudia Cozza, and Davide Guarascio, “Blurring Boundaries: An Analysis of the Digital Platforms-Military Nexus.” *Review of Political Economy*, 2024\.
+
+[^18]:  Dario Guarascio, Andrea Coveri and Claudio Cozza, “Big Tech and the US Digital-Military-Industrial Complex”, *Intereconomics*, 2025\.
+
+[^19]:  Vera Bergengruen, “How Tech Giants Turned Ukraine Into an AI War Lab”, *TIME*, 8 February 2024\.
+
+[^20]:  Yuval Abraham, “‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza”, *\+972 Magazine*, 3 April 2024
+
+[^21]:   Martín Schapiro and Gerónimo Pelli, “Algorithmen für Alle: Künstliche Intelligenz im Sozialismus”, *Klasse Gegen Klasse*, 2025\.
