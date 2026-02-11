@@ -7,7 +7,7 @@ draft: false
 authors: 
     - soren-bogh-sorensen
 image: "../images/hemisphere-austral.jpg"
-caption: John Flamsteed, "The Celestial Atlas of Flamsteed"
+caption: 'John Flamsteed, "The Celestial Atlas of Flamsteed".'
 abstract: Exploitation, control, and their convergences across geographies
 ---
 The vast networks of global build-outs necessary for the production of digital technologies have prompted extensive discussions on the infrastructural power of digital capital. These debates — often characterising these infrastructures as “megamachines”, or as a “planetary stacking order” — aim to clarify how digital capitalists have gained greater control over society through an increasing concentration of power and capital.[^1] 

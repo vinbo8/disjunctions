@@ -7,7 +7,7 @@ draft: false
 authors: 
     - ranjodh-singh-dhaliwal
 image: "../images/two-wolves.jpg"
-caption: Franz Marc, "Zwei Wölfe". Solomon R. Guggenheim Foundation.
+caption: 'Franz Marc, "Zwei Wölfe". Solomon R. Guggenheim Foundation.'
 abstract: The user subject and the GPT grindset
 ---
 One striking feature of contemporary “artificial intelligence”, whatever that might mean today, is that it is somehow nothing and everything at the same time.[^1] On the one hand, it demonstrates impressive feats of aggregation[^2] and compression;[^3] on the other, it fails spectacularly at tasks of both logic (expected, given the technical structure of large language models) and recall (underexpected, because wasn’t this one of the defining “advances” made by AI?)[^4] The result, then, is a temporal distention, where generative AI in 2025 is *kinda* already here but also always only *really* arriving in the future — either via improvements or via the holy grail of AGI. The latter part of this temporality can be understood as a scalar movement through the speculative, where the next-word prediction (of an LLM) and the next-moment prediction (of financial investments) find themselves entangled in the look to the future: what may happen? What may be wanted?[^5] An important part, however, of this speculative dimension is one that is embodied in the user: the subject *par excellence* of the service economy.[^6] If all of us are users — and if this has somehow superseded our being citizens or workers (big if) — then perhaps it is worth asking what *kind* of user *this* particular user (of generative AI) is.

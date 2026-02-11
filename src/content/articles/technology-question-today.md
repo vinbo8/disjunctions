@@ -6,7 +6,7 @@ draft: false
 authors: 
     - the-editors 
 image: "../images/albion-mills.jpg"
-caption: William Henry Pyne, "Fire at Albion Mill"
+caption: William Henry Pyne, "Fire at Albion Mill".
 abstract: Introducing Disjunctions Magazine
 ---
 A sense of disorientation characterises our relationship to technology today. Everywhere we look, we find newspapers and magazines saturated with forecasts of how technology will shape society; governments are scrambling to assert national digital sovereignty; attempts to “quit social media” are a minor cultural phenomenon; and pop culture’s imaginary is overrun by visions of technological dystopia. In academic and intellectual circles, efforts to make sense of technocapitalism’s encroachment over all aspects of our lives have birthed an expansive inventory of frameworks — surveillance capitalism, data capitalism, technofeudalism, cognitive capitalism, *etc.* 
