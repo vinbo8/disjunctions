@@ -8,7 +8,7 @@ authors:
     - tabea-krug
 image: "../images/dream-nightmare.jpg"
 abstract: Overaccumulation, hegemony and AI hype
-caption: "An abandoned construction project in Cyprus. Photo: Rogier Krens."
+caption: 'An abandoned construction project in Cyprus. Photo: Rogier Krens.'
 ---
 It is no secret that investments in generative AI are through the roof. The scale is staggering: in 2025 alone, the so-called *Magnificent 7* poured over $400 billion into AI infrastructure; Morgan Stanley estimate that global investment in data centres and hardware will approach $3 trillion by 2029, while OpenAI alone have secured contracts totalling more than $1 trillion.[^1] This is only the tip of the iceberg: today’s financial flows in the AI industry increasingly resemble the railroad expansions of the 19th century, well eclipsing the dot-com boom of the late 1990s. There is little doubt that we are witnessing one of the most significant reallocations of capital in modern economic history.
 
