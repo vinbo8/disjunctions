@@ -94,4 +94,4 @@ We demand nothing less than sovereignty over the tools that shape our future.
 
 [^20]:  Yuval Abraham, “‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza”, *\+972 Magazine*, 3 April 2024
 
-[^21]:  Martin Schapiro and Geronimo Pelli, “Algorithmen fuer Alle: Künstliche Intelligenz im Sozialismus”, *Klasse Gegen Klasse*, 2025\.
+[^21]:  Martín Schapiro and Gerónimo Pelli, “Algorithmen für Alle: Künstliche Intelligenz im Sozialismus”, *Klasse Gegen Klasse*, 2025\.
