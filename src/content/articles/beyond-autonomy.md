@@ -6,7 +6,7 @@ draft: false
 authors: 
     - eliza-mccullough
 image: "../images/uber-film.jpg"
-caption: Still from Federico Fellini's "8 1/2".
+caption: Still taken from Federico Fellini's "8 1/2".
 abstract: Personalised wages as alienation
 ---
 Advocates, academics, and policymakers alike have increasingly raised digital manipulation — the attempt to influence digital users’ behaviours and decision-making — as a cause for concern. This problem is primarily discussed in the context of consumers, such as with the Cambridge Analytica scandal, or with personalised advertising to teens on Instagram.[^1] But this manipulation does not stop at the consumer, but also affects *workers*, whose employees increasingly subject them to an array of digital management techniques at work. A particularly salient example of this is Uber, who have — perhaps more than any other company — leveraged such digital manipulation as a labour management technique. Because Uber insists that its workers are not employees but independent contractors (a view reflected in labour regulation throughout the United States), it cannot directly control drivers’ schedules or routes. Instead, the company has devised a range of techniques, borrowing from behavioural sciences, to covertly manipulate drivers into working at certain times and in certain areas.[^2] These include tactics such as sending drivers carefully crafted texts and pop-ups to keep them on the road; automatically queuing rides; or sending drivers push notifications that attempt to convince them to keep working whenever they try to log off. 
