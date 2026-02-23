@@ -18,7 +18,7 @@
 		}} style={`border-color: ${colour}`}>
 	<div class="relative inline-block group mb-5 mx-auto object-contain max-h-[min(24rem, 100%)] max-w-full md:w-[calc(29.33vw-96px)]">
 		<a href={`/articles/${article.slug}`}><Image src={article.data.image} widths={[320, 640]} sizes="(max-width: 768px) 50vw 33vw" alt={article.data.title} /></a>
-		<div class="bg-p-blue pointer-events-none absolute inset-0 mix-blend-hue opacity-0 transition-opacity duration-200 group-hover:opacity-100"></div>
+		<div class="bg-p-blue pointer-events-none absolute inset-0 mix-blend-overlay opacity-0 transition-opacity duration-200 group-hover:opacity-35"></div>
 	</div>
 	<div class="text-center font-serif text-2xl lg:text-3xl 2xl:text-4xl mb-0 leading-[1] tracking-tight"><a href={`/articles/${article.slug}`}>{article.data.title}</a></div>
 	<div class="text-center font-serif text-md lg:text-lg 2xl:text-xl align-middle small-caps"><AuthorList authors={authors} /></div>
