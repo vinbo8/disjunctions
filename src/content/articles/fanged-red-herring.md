@@ -1,12 +1,90 @@
 ---
-title: "The Red Herring With Fangs"
-date: 2026-02-15
+title: "The Red Herring Has Fangs"
+date: 2026-03-04
 genre: essay
 issue: 1
-draft: true
+draft: false 
 authors: 
     - anupam-guha
-image: "../images/two-wolves.jpg"
-caption: TODO
-abstract: TODO
+image: "../images/friedensreiter-muenster.jpg"
+caption: 'Unknown artist, "Der Friedensreiter von Münster".'
+abstract: Digital sovereignty as nationalist camouflage
 ---
+*And on digital sovereignty, we are also very clear that what is forbidden offline is forbidden online. And we will not flinch at that. We will be very steadfast to pursue this.*
+<span class="block text-right"> — Ursula von der Leyen, Munich Security Conference 2026</span>
+
+If one were to analyse the concepts that have taken hold of digital policy spaces today, a particularly dominant and contested theme is that of *digital sovereignty.* The importance of digital sovereignty has often been underlined in both dominant and emerging nations, and has consequently become part of a shared global vocabulary, used by civil society and working class movements in responding to the current moment in global capitalism. Both as a descriptor and as a strategy, digital sovereignty has not meant one specific thing; yet, despite the variations in usage, it has a core that is coherent enough to examine. It is important that we do so, and that we reflect upon the political consequences of reifying this category. 
+
+The notion of sovereignty itself is, of course, both older and broader, emerging in its current form together with the birth of the modern nation-state. Historically, the term has been used to refer to sole and absolute power over a territory — often under the control of a state. Today, this territoriality creates an inherent tension, since a large part of digital infrastructure necessarily needs to cross state borders in order to function. The actual, concrete nature of the technology involved makes it clear that patches of the digital *cannot* be under the control of states in the absolute sense, and that total digital insulation has simply never been possible.
+
+In relation to the digital, then, one of the earliest uses of the concept of sovereignty was  John Perry Barlow's 1996 manifesto.[^1] In it, Barlow rather optimistically declares the existence of an entity called *cyberspace*, where nation-states are unwelcome and have no sovereignty. Unsurprisingly, the principles of this proclamation would not sit right with nation-states. Thus, as the Internet evolved, they would go on to insist that national sovereignty over the digital realm (and especially over data flows) was intrinsically virtuous, and that the nature of the Internet and its contents should be decided upon by nation-states.[^2] The strongest versions of this framing would end up advocating for the outright fragmentation of the Internet along national lines.[^3]
+
+Manifestos and cyber-utopianism aside, digital sovereignty’s concept creep has today gone beyond the simple idea of state control over digital infrastructure or artefacts, and beyond older debates around data localisation.[^4] On the one hand, it has expanded to notions of state-led self-sufficiency: via the national capitalist champions of the digital realm, of course. And on the other, it has broadened to include notions of collectives and individuals having a certain degree of control over the digital — generally in order to protect some legal or notional right, from some form of digital encroachment on the part of (foreign) private actors.[^5] This concept creep is a theoretical dilution, given that any ‘sovereignty’ that an individual exercises is through the coercive power of the state, and given that, conversely, state sovereignty built on the basis of an open alliance with national capital is contradictory to the ability of a state to regulate as a representative of the individual. 
+
+Especially in practice, this expanded notion of sovereignty is a bag of contradictions. A person exercising individual control over their patch of the digital — motivated by their individual security, privacy, or economic interests — will have goals that are diametrically opposed to those of a state exercising “sovereignty” over some subset of the digital for developmentalist interests. Digital sovereignty in the former case can be framed in terms of liberal individualism or rights, and in the latter case, in terms of nationalism or self-sufficiency. This problem of sovereignty is further muddied when the notion of digital community rights is considered, given that a large part of digital infrastructure is made and held as a commons.[^6] Indeed, there are sharp contradictions between the interests of communities engaged in the production and reproduction of digital artefacts (such as data) and those of states and capital. Digital institutions that are sufficiently independent of states yet powerful enough to represent the interests of such communities necessarily complicate any notion of digital sovereignty.   
+   
+None of this is unique to the digital realm. The idea of control that is not by states; of control that is not necessarily over territory; or of control that is not absolute, but limited, negotiated, and constrained in practice; has been referred to in terms of sovereignty, for a variety of reasons. Take, for instance, the vague categories of “seed sovereignty” and “body sovereignty” — categories that have existed and have been used as political ammunition in the three-sided war between individual interests, the pressures of capital, and the interests of the state.[^7] Linguistically speaking, the word sovereignty lends itself to a specific weaponisation, where it is used to legitimise some future exercise of power, often by weaker actors asserting control against some sort of hegemonic power.[^8] 
+
+National sovereignty of the old-fashioned kind, too, has, in reality, always been fairly constrained. Capital does not respect national policies beyond a limit, and nation-states exercising self-determination over such policies have historically accommodated capital while policing labour.[^9] In short, sovereignty under capitalism has never been an analytically clean category.
+
+---
+
+Digital sovereignty as a concept has seen a sudden surge in usage recently due to the spread of a certain novel digital technology, referred to in public discourse under the market term *artificial intelligence*, and the consequent production of the new analytical category of *AI sovereignty*. Like digital sovereignty, the concept is vaguely and contentiously defined; yet at its core, it is used to refer to a state’s capacity to regulate (or even just understand) AI systems deployed within its territory.[^10] This discourse is important, as leading firms in the AI industry have disproportionate influence — having trained their models on snapshots of the internet, they are capable of concentrating immense wealth and power, and of exploiting data and information which they technically do not own.[^11] This enclosure of the digital commons to feed the data requirements of continuously evolving models is an ongoing process; a sort of primitive accumulation whose power is as material as it is discursive. And even beyond the usual collaboration between states and global capital, states have to go out of their way to accommodate AI firms, while seemingly getting not much in return, at least in the immediate future. Frontier AI systems are massively expensive and often wasteful efforts, with no straightforward path to profit. This compels states to use coercive power to enclose vast amounts of data and to invest in acquiring or building computing infrastructure, often without guarantees on the benefits of scale. In addition, they are compelled to enact policies that generate and discipline the sophisticated labour force that this industry needs to exploit. 
+
+Why do states go along with this? First, it is important to highlight that the attraction to AI is not *solely* due to states being the dupes and catspaws of digital capital. Digital capital has, after all, proved to be immensely useful for securitisation, and states have used the obfuscatory power of AI-based tools to police welfare provisions, enhance tax collections, and engage in mass surveillance — and to normalise all of the above by enhancing their own discursive ability using the same tools. This normalisation is evident in how judicial and police authorities all over the world have enthusiastically begun to adopt AI policies that convert legal rights into services. AI firms are happy to sell their services for border enforcement or for military use. The data obtained from people across the globe, ostensibly for innocent uses like multilingual research, feeds into AI models, which, in turn, feeds into the violence of capital.[^12] Digital sovereignty here becomes a synonym for state capacity and a justification for the rapid ingress of these technologies into civic life, ignoring the structures of ownership and control of the technology, all the while keeping the base of these technologies firmly within global digital capitalism. The cost in resources and in control over everyday life is borne by the working class.
+
+Beyond securitisation, a popular idea pushed by AI firms has been that being “left behind” in AI research is a strategic blunder, both economic and geopolitical. AI firms have also gone out of their way to push a narrative that states *need* to feed into frontier AI systems, in order to convince state actors that their future power (or even existence) depends upon getting on the AI bus. And thus does “digital sovereignty” once again modify its meaning, this time referring to national self-sufficiency in the realm of AI. And since AI is a vague market term, the way this plays out is as a race after models, data centres, and imported compute. This is even visible at a subnational level, where promises of future prosperity can induce local governments to sink their revenues, and to tie the economic interests of their residents to the expansion of resource-intensive data centres.[^13] 
+
+This admirable spirit of sacrifice is not just reserved for nation-states, compelled to sacrifice their national interests upon the altar of AI. In pushing this narrative, these tech firms themselves end up becoming the biggest champions of digital sovereignty, apparently entirely opposed to their own profit interest. Take, for instance, NVIDIA CEO Jensen Huang’s enthusiasm about the idea of sovereign AI, or OpenAI’s Stargate program in the UAE.[^14] 
+
+At a surface level, this curious phenomenon of AI firms championing nationalism can be explained as an attempt by technology firms to take over the discursive terrain of digital sovereignty. Tech giants like Alphabet, Amazon, and Microsoft initiate programs offering states sovereign control over their digital infrastructure and programmes, and undertake self-regulatory actions like *Digital Sovereignty Pledges* as a selling point for using their services — essentially creating a new category of sovereignty-as-a-service.[^15] In doing so, they also reframe the meaning of sovereignty once again. Sovereignty now becomes a product that a state can buy, as a family of technology that these firms can vet and sell. Not only is sovereignty in this setting ideologically designated as *private* property — it is private property that you can rent only from a small and closed ecosystem of technology giants. 
+
+Yet at a deeper level, this phenomenon is not just discursive but material. It is the newest and sharpest iteration of a well-recognised dynamic in which nationalism and the “national interest” ultimately serve global capitalism. When Nvidia promises to build chips or train developers for a nation-state, for instance, they also expect a commitment to buying their AI models and cloud services.[^16] These models benefit from the data harvested in the country being offered to this sovereign AI, but in a broader sense, they also promote vendor lock-in into systems that can intensify the exploitation of workers in these territories. 
+
+This has two immediate causes. First, AI systems are rather technically complex, and competition across the entire  AI stack is effectively impossible. This means that when nation-states push for AI sovereignty, they immediately require more software, technical know-how, and chips, and often rely upon imports to acquire them. Downstream, this leads to the prioritisation of policies that subordinate workers' interests to the development of an AI ecosystem. This, in turn, benefits global digital capital. 
+
+Second, the actual, specific knowledge of workers who now have to join this AI ecosystem in pursuit of sovereignty ends up being used to build and refine models. And this, in turn, reduces workers’ collective bargaining power, as they slowly march towards their own obsolescence.[^17]
+
+Finally, once normalised, these tendencies intensify into an “AI race” between “AI superpowers”, where collaborations between AI firms and nation-states allow states immense latitude to spend resources, and to marshal power over local digital infrastructure, all in the name of nationalism and future greatness. The interests of workers and wage relationships — together with other structural concerns like the nature of the economy, environmental concerns and so on — all turn into secondary political concerns. And all the while, the inconvenient fact remains: digital capital is happy to work across borders, using the idea of national self-sufficiency to make itself larger, sell its own inevitability, and sell products and services that help embed it more firmly, while providing returns that are questionable at best.
+
+---
+
+It is important to acknowledge two realities. The first is that the production, ownership, and control of digital systems — both the physical technology and the capital that finances it — are transnational. Any attempt to separate “real” technology from “fake” finance to produce the former locally is social-democratic magical thinking. This does not mean that policy is impossible: just that there are hard constraints on the production of digital systems, and that pushing for regulations and contextual bans is no more unrealistic than blindly “getting on the bus”. The second reality is that — as any honest evaluation of the past decade, and of industry realities after generative AI makes clear — the idea of tech nationalism, just like economic nationalism in general, fails to pose an effective challenge to the reality of capital, which will happily work with nationalist projects, and even benefit from national rivalries.[^18] Yes, there may once have been an honest use of digital sovereignty as an emancipatory framework (although, as we have seen, always amongst many contending uses). The logic of localisation and tech nationalism may once have been used as weapons against the dominant vision of free data being a resource for digital capital to plunder without pause. Today, however, the small ways in which so-called sovereignty has been useful in the digital realm have been when the state has been elided as the primary subject of sovereignty, shifting the subject to individual persons or to communities, who are in their turn defended from above by activists or lawyers, or from below by radical, organised workers.
+
+Ultimately, these battles are better framed in the language of workers’ rights, democracy, socialism, and universal standards. Digital capital is international, and any response to it which is not international will be a vicious red herring. Digital sovereignty, as a category, mystifies more than it explains — and what it mystifies is politically the opposite of the outcome that it purports to champion.
+
+[^1]:  John Perry Barlow, “A Declaration of the Independence of Cyberspace”, *Electronic Frontier Foundation*, 8 February 1996\.
+
+[^2]:  Dakota Cary, “Community watch: China’s vision for the future of the internet”, *Atlantic Council*, 4 December 2023\.
+
+[^3]:  Dana Polatin-Reuben and Joss Wright, “An Internet with BRICS Characteristics: Data Sovereignty and the Balkanisation of the Internet”, *4th USENIX Workshop on Free and Open Communications on the Internet (FOCI 14\)*, 2014\. 
+
+[^4]:  Chiara Del Giovane, Janos Ferencz, and Javier López González, "The nature, evolution and potential implications of data localisation measures", *OECD Trade Policy Papers*, 2023\.
+
+[^5]:  Stephane Couture and Sophie Toupin, "What does the notion of ‘sovereignty’ mean when referring to the digital?", *New Media & Society*, 2019\.
+
+[^6]:  Michael Max Bühler et al., "Unlocking the power of digital commons: Data cooperatives as a pathway for data sovereign, innovative and equitable digital communities", *Digital*, 2023\.
+
+[^7]:  Jack Kloppenburg, "Re-purposing the master’s tools: the open source seed initiative and the struggle for seed sovereignty". In Marc Edelman, ed. *Critical Perspectives on Food Sovereignty*, 2017; Michelle Murphy, *Seizing the means of reproduction: Entanglements of feminism, health, and technoscience*, Duke University Press, 2020\.
+
+[^8]:  Wouter G. Werner and Jaap H. De Wilde, "The endurance of sovereignty", *European Journal of International Relations*, 2001\.
+
+[^9]:  William I. Robinson and Xuan Santos, "Global capitalism, immigrant labor, and the struggle for justice", *Class, Race and Corporate Power*, 2014\.
+
+[^10]:  Luca Belli, "Exploring the key AI sovereignty enablers (KASE) of Brazil, towards an AI sovereignty stack", *Annual Conference of the Global Internet Governance Academic Network*, 2023\.
+
+[^11]:  Jeffrey Cheng et al., "Dated data: Tracing knowledge cutoffs in large language models", *arXiv,* 2024\.
+
+[^12]:  Charles Rollet, “Cohere is quietly working with Palantir to deploy its AI models”, *TechCrunch*, 16 December 2024\.
+
+[^13]:  Ellen Thomas, “Meta's data center could be 'transformative' for Louisiana, utility says — as long as customers pay the $5 billion power bill”, *Business Insider*, 25 April 2025\.
+
+[^14]:  Brian Caulfield, “NVIDIA CEO: Every Country Needs Sovereign AI”, *NVIDIA Blog,* 12 February 2024; Stephen Nellis, “'Stargate UAE' AI datacenter to begin operation in 2026”, *Reuters*, 22 May 2025\.
+
+[^15]:  Rafael Grohmann and Alexandre Costa Barbosa, "Sovereignty-as-a-service: How big tech companies co-opt and redefine digital sovereignty", *Media, Culture & Society*, 2025\.
+
+[^16]:  Dean Takahashi, “Nvidia CEO touts India's progress with sovereign AI and over 100K AI developers trained”, *VentureBeat*, 24 October 2024\.
+
+[^17]:  Kaya Genç, “Desperate for work, translators train the AI that’s putting them out of work”, *Rest of World*, 20 February 2025\.
+
+[^18]:  Jamie Merchant, “Fantasies of Secession: A Critique of Left Economic Nationalism”, *The Brooklyn Rail*, February 2018\.
