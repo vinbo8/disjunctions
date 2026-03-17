@@ -81,7 +81,7 @@ Interestingly, if we flip this script, we could argue that trillion dollar inves
 
 [^9]:  “WHO BROKE THE INTERNET? Understood”, *CBC News*, 18 August 2025\.
 
-[^10]:  Abeba Birhane, “Bending the Arc of AI towards the Public Interest”, *AI Accountability Lab*, 17 February 2025\.
+[^10]:  Ali Alkhatib, "Defining AI", 6 December 2025\.
 
 [^11]:  Businesses are now having to influence the data ingested for training AI chatbots so that their products can be part of the synthetic output (as a kind of product placement, or as a way to create a need for something). See: Erin Griffith, “Chatbots Are the New Influencers Brands Must Woo”, *The New York Times*, 17 February 2026\.
 
