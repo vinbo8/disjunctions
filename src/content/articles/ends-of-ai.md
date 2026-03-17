@@ -7,7 +7,7 @@ draft: false
 authors: 
     - mel-hogan
 image: "../images/chemical-factory.jpg"
-caption: 'Helvey Tivadar chemical factory. Source: Fortepan.'
+caption: 'The Helvey Tivadar chemical factory. Source: Fortepan.'
 abstract: Sycophancy and psychosis
 ---
 
