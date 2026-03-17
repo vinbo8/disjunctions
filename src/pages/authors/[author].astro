@@ -33,12 +33,12 @@ articles = articles.filter((x) => x.data.authors.map((y) => y.id).includes(autho
 		<AuthorBanner entity={author} />
 
 		<div class="grid grid-cols-12">
-			<div class="flex flex-row flex-wrap items-stretch justify-start col-span-full md:col-span-8">
+			<div class="flex flex-row flex-wrap items-stretch justify-start col-span-full md:col-span-full">
 				{articles.map((i) => <OuterBlock article={i} isTrio={false} />)} 
 			</div>
-			<div class="hidden md:flex justify-center col-span-4">
+			<!-- <div class="hidden md:flex justify-center col-span-4">
 				<Image id="sideslash" class="object-contain" src="/img/slash.png" height="100" width="100" alt="" />
-			</div>
+			</div> -->
 		</div>
 	</div>
 </Wrapper>
