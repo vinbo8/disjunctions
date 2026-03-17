@@ -2,7 +2,6 @@
 title: "The Ends of AI"
 date: 2026-03-17
 genre: essay
-issue: 1
 draft: false 
 authors: 
     - mel-hogan
