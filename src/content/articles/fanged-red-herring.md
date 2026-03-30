@@ -12,7 +12,7 @@ abstract: Digital sovereignty as nationalist camouflage
 ---
 *And on digital sovereignty, we are also very clear that what is forbidden offline is forbidden online. And we will not flinch at that. We will be very steadfast to pursue this.*
 <span class="block text-right"> — Ursula von der Leyen, Munich Security Conference 2026</span>
-
+<br><br>
 If one were to analyse the concepts that have taken hold of digital policy spaces today, a particularly dominant and contested theme is that of *digital sovereignty.* The importance of digital sovereignty has often been underlined in both dominant and emerging nations, and has consequently become part of a shared global vocabulary, used by civil society and working class movements in responding to the current moment in global capitalism. Both as a descriptor and as a strategy, digital sovereignty has not meant one specific thing; yet, despite the variations in usage, it has a core that is coherent enough to examine. It is important that we do so, and that we reflect upon the political consequences of reifying this category. 
 
 The notion of sovereignty itself is, of course, both older and broader, emerging in its current form together with the birth of the modern nation-state. Historically, the term has been used to refer to sole and absolute power over a territory — often under the control of a state. Today, this territoriality creates an inherent tension, since a large part of digital infrastructure necessarily needs to cross state borders in order to function. The actual, concrete nature of the technology involved makes it clear that patches of the digital *cannot* be under the control of states in the absolute sense, and that total digital insulation has simply never been possible.
