@@ -10,7 +10,7 @@ caption: 'Moscow Polytechnical Museum. Photo: Mikhail (Vokhabre) Shcherbakov.'
 abstract: How should the left respond to the anti-tech turn?
 ---
 *Our opinion is that war to the death should be instantly proclaimed against them. Every machine of every sort should be destroyed by the well-wisher of his species. Let there be no exceptions made, no quarter shown; let us at once go back to the primeval condition of the race. If it be urged that this is impossible under the present condition of human affairs, this at once proves that the mischief is already done, that our servitude has commenced in good earnest, that we have raised a race of beings whom it is beyond our power to destroy, and that we are not only enslaved but are absolutely acquiescent in our bondage.*
-<span class="block text-right">— Samuel Butler, *Darwin Among the Machines* (1863)</span><br>
+<span class="block text-right">— Samuel Butler, *Darwin Among the Machines* (1863)</span>
 <br>
 *Then came the Butlerian Jihad — two generations of chaos. The god of machine-logic was overthrown among the masses and a new concept was raised: "Man may not be replaced."*
 <span class="block text-right">— Frank Herbert, *Dune* (1965)</span>
