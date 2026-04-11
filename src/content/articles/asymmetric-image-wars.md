@@ -6,7 +6,7 @@ draft: false
 authors: 
     - rakesh-sengupta
 image: "../images/lego-satanyahu.jpg"
-caption: ''
+caption: 'LEGO-style propaganda video. Source: Youtube.'
 abstract: Or, how I learnt to stop worrying and love the slop
 ---
 *The disappearance of the individual subject, along with its formal consequence, the increasing unavailability of the personal style, engender the well-nigh universal practice today of what may be called pastiche.*
