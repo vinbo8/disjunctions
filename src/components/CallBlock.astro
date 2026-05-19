@@ -31,7 +31,7 @@ const articlesWithAuthors = articles.map(article => {
 	<Image class=`lg:self-start max-w-lg w-9/12 min-w-8 max-h-96 lg:max-h-max lg:w-[30%] object-contain mb-8 lg:mb-0 ${rtl ? 'lg:ml-8' : 'lg:mr-8'}` src={issue.data.image} alt={issue.data.title} width={512} sizes="(min-width: 1024px) 30vw, 75vw" />
 	<div class="lg:px-0 lg:w-[60%]">
 		<h1 id="title" class="mb-0 font-bold font-serif leading-[0.8] text-[clamp(4rem,7.25vw,7rem)]">issue {issueNumber}</h1>
-		<h2 id="subtitle" class="mb-2 font-semibold font-sans leading-[0.9] -translate-y-[15%] text-[clamp(2rem,3.6vw,3.5rem)] whitespace-break-spaces">{issue.data.title}</h2>
+		<h2 id="subtitle" class="mb-8 font-semibold font-sans leading-[0.9] -translate-y-[15%] text-[clamp(2rem,3.6vw,3.5rem)] whitespace-break-spaces">{issue.data.title}</h2>
 		<div class="prose max-w-max text-black text-block">
 			<Content />
 		</div>
