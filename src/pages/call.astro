@@ -2,7 +2,7 @@
 // import { published } from "@data/post"
 import { getCollection, getEntry } from "astro:content";
 import Wrapper from "@components/Wrapper";
-import IssueBlock from "@components/IssueBlock";
+import CallBlock from "@components/CallBlock";
 
 let issues = (await getCollection('issues'))
 let tot = issues.length
@@ -11,7 +11,7 @@ issues = issues.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
 
 <Wrapper title="Disjunctions">	
 	<div class="flex flex-row flex-wrap justify-around items-stretch">
-		{issues.filter(i => !i.data.active).map((i, n) => <IssueBlock issue={i} rtl={n % 2 != 0} />)}
+		{issues.filter((i) => i.data.active).map((i, n) => <CallBlock issue={i} number={tot - 1 - n} />)}
 	</div>
 
 
