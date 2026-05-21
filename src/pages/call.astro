@@ -4,15 +4,19 @@ import { getCollection, getEntry } from "astro:content";
 import Wrapper from "@components/Wrapper";
 import CallBlock from "@components/CallBlock";
 
+function padNumber(num: string, length: number) {
+	return num.toString().padStart(length, '0');
+}
+
 let issues = (await getCollection('issues'))
-let tot = issues.length
-issues = issues.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+let issue = issues.filter((i) => i.data.active)[0]
+const ogUrl = Astro.site.origin + issue.data.image.src
+const issueNumber = padNumber(issue.slug, 2);
+let abstract = "issue " + issueNumber + " — " + issue.data.title
 ---
 
-<Wrapper title="Disjunctions">	
+<Wrapper title="Disjunctions" image={ogUrl} abstract={abstract}>	
 	<div class="flex flex-row flex-wrap justify-around items-stretch">
-		{issues.filter((i) => i.data.active).map((i, n) => <CallBlock issue={i} number={tot - 1 - n} />)}
+		<CallBlock issue={issue} />
 	</div>
-
-
 </Wrapper>
