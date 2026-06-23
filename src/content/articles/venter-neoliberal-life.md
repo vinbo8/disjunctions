@@ -6,7 +6,7 @@ draft: false
 authors: 
     - jonathan-basile
 image: "../images/venter-genome.jpg"
-caption: 'Image: Salma Shamel. CC BY-SA 3.0.'
+caption: ''
 abstract: Speculative valuation and the myth of scientific genius
 ---
 Life scientist and entrepreneur J. Craig Venter recently passed away, so out of respect, I won’t repeat the things his colleagues said about him while he was alive. While his work and his professional and public persona tended to attract disdain and outright hostility from fellow scientists, the press feasted on this controversy throughout his life, elevating his profile and frequently celebrating Venter himself.
