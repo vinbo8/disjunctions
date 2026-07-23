@@ -106,7 +106,7 @@ It’s no surprise that Egan uses the redemption narrative as a sort of foil in 
 
 [^1]:  José van Dijck, “Tracing Twitter: The Rise of a Microblogging Platform”, *International Journal of Media and Cultural Politics*, 2011, p. 340\.
 
-[^2]:  Caddie Alford and Jonathan S. Carter, ‘“A Cesspool of Toxicity, Hatred, and Discrimination”: Twitter, Free Speech Absolutism, and Adoxastic Enshittification”, *Journal of Contemporary Rhetoric*, 2025\.
+[^2]:  Caddie Alford and Jonathan S. Carter, “‘A Cesspool of Toxicity, Hatred, and Discrimination’: Twitter, Free Speech Absolutism, and Adoxastic Enshittification”, *Journal of Contemporary Rhetoric*, 2025\.
 
 [^3]:  Roger Ebert, *X*, 29 August 2011. https://x.com/ebertchicago/status/107973508637790209.
 
@@ -118,7 +118,7 @@ It’s no surprise that Egan uses the redemption narrative as a sort of foil in 
 
 [^7]:  If you’re curious why we use scare quotes to refer to “AI”, a good place to start would be Emily Tucker’s “Artifice and Intelligence”, *Tech Policy Press*, 16 March 2022\.
 
-[^8]:  Matt Seybold, “You Have to Use it. You Have to Trust it:” Forced Adoption of AI is the Subtext of Davos,” *The American Vandal*, 23 January 2026\.
+[^8]:  Matt Seybold, “‘You Have to Use it. You Have to Trust it.’: Forced Adoption of AI is the Subtext of Davos”, *The American Vandal*, 23 January 2026\.
 
 [^9]:  Jennifer Egan, *A Visit From the Goon Squad*, 2010\.
 
@@ -130,33 +130,33 @@ It’s no surprise that Egan uses the redemption narrative as a sort of foil in 
 
 [^13]:  Shannon Vallor, *Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting*, Oxford, 2016\.
 
-[^14]:  Shannon Vallor, “The Thoughts the Civilized Keep,” *Noema*, 2 February 2021\.
+[^14]:  Shannon Vallor, “The Thoughts the Civilized Keep”, *Noema*, 2 February 2021\.
 
-[^15]:  Vallor, “Thoughts,” 2021\.
+[^15]:  Vallor, “Thoughts”\.
 
 [^16]:  Rebecca Solnit, “What Technology Takes from Us—and How to Take it Back,” *The Guardian*, 29 January 2026\.
 
-[^17]:  Clio Chang, “The Year of Subway Slop,” *Curbed,* 29 December 2025\.
+[^17]:  Clio Chang, “The Year of Subway Slop”, *Curbed,* 29 December 2025\.
 
-[^18]:  Solnit, “Technology,” 2026\.
+[^18]:  Solnit, “Technology”, 2026\.
 
-[^19]:  Ruth Amossy makes this clear in her affirmative theory of clichés vis-a-vis reading in “The Cliché in the Reading Process,” *Substance*, 1982\. 
+[^19]:  Ruth Amossy makes this clear in her affirmative theory of clichés vis-a-vis reading in “The Cliché in the Reading Process”, *Substance*, 1982\. 
 
 [^20]:  Rivka Galchen and Leslie Jamison, “Why Do We Hate Cliché?”, *The New York Times*, 6 January 2015\.
 
-[^21]:  Antonio Regalado, “A Startup is Pitching a Mind-Uploading Service that is “100 Percent Fatal,”’ *MIT Technology Review*, 13 March 2018; Sam Altman, “Words that Matter,” *Medium*, 7 December 2017\.
+[^21]:  Antonio Regalado, “A Startup is Pitching a Mind-Uploading Service that is “100 Percent Fatal”’, *MIT Technology Review*, 13 March 2018; Sam Altman, “Words that Matter”, *Medium*, 7 December 2017\.
 
-[^22]:  Will Douglas Heaven, “How AGI Became the Most Consequential Conspiracy Theory of Our Time,” *MIT Technology Review*, 4 November 2025\.
+[^22]:  Will Douglas Heaven, “How AGI Became the Most Consequential Conspiracy Theory of Our Time”, *MIT Technology Review*, 4 November 2025\.
 
-[^23]:  Austin Carr and Dina Bass, “Microsoft’s CEO on How AI Will Remake Every Company, Including His,” *Bloomberg*, 15 May 2025\.
+[^23]:  Austin Carr and Dina Bass, “Microsoft’s CEO on How AI Will Remake Every Company, Including His”, *Bloomberg*, 15 May 2025\.
 
-[^24]:  Ted Chiang, “Silicon Valley is Turning into Its Own Worst Fear,”traumatisedlabourers *Buzzfeed.News*, 18 December 2017\.
+[^24]:  Ted Chiang, “Silicon Valley is Turning into Its Own Worst Fear”, *BuzzFeed News*, 18 December 2017\.
 
 [^25]:  Lauren Oyler, “Future Nostalgia: Jennifer Egan’s Old-World Internet Novel”, *Harper’s Magazine*, April 2022\.
 
 [^26]:  The term “context collapse” comes from: Alice E. Marwick and danah boyd, “I Tweet Honestly, I Tweet Passionately: Twitter Users, Context Collapse, and the Imagined Audience”, *New Media & Society*, 2010\.
 
-[^27]:  @ontaphilosophy and @claudai, "How would you rebel against time?", *Instagram*, 19 February 2026. [https://www.instagram.com/reels/DU8UX-\_jJQr](https://www.instagram.com/reels/DU8UX-_jJQr).
+[^27]:  @ontaphilosophy and @claudai, “How would you rebel against time?”, *Instagram*, 19 February 2026. [https://www.instagram.com/reels/DU8UX-\_jJQr](https://www.instagram.com/reels/DU8UX-_jJQr).
 
 [^28]:  Arne De Boever, “The Essay vs. AI: On the Literary Value of Criticism”, *b2o*, 2026\.
 
