@@ -114,7 +114,7 @@ It’s no surprise that Egan uses the redemption narrative as a sort of foil in 
 
 [^5]:  Deborah Treisman, “This Week in Fiction: Jennifer Egan”, *The New Yorker*, 25 May 2012\.
 
-[^6]:  David Adelman et al*., Technoskepticism: Between Possibility and Refusal*, Stanford UP, 2025, 8\.
+[^6]:  The DISCO Network, *Technoskepticism: Between Possibility and Refusal*, 2025, p. 8\.
 
 [^7]:  If you’re curious why we use scare quotes to refer to “AI”, a good place to start would be Emily Tucker’s “Artifice and Intelligence”, *Tech Policy Press*, 16 March 2022\.
 
