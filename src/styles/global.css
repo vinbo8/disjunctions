@@ -12,6 +12,7 @@
 @theme {
     --font-sans: 'ABC Diatype', serif;
     --font-serif: 'Hoefler Text', sans-serif;
+    --font-mono: 'Inconsolata', serif;
 
     --color-p-red-light: #D98E73;
     --color-p-red: #d9583b;

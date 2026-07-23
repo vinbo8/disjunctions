@@ -76,7 +76,7 @@ This article’s wager, then, is that AI images — copyright disputes notwithst
 
 [^1]:  Fredric Jameson, *Postmodernism, or, The Cultural Logic of Late Capitalism*, 1991\.
 
-[^2]:  Guardian News, “Donald Trump shares bizarre AI-generated video of ‘Trump Gaza’”, *YouTube*, [https://www.youtube.com/watch?v=PslOp883rfI](https://www.youtube.com/watch?v=PslOp883rfI)
+[^2]:  Guardian News, “Donald Trump shares bizarre AI-generated video of ‘Trump Gaza’”, *YouTube*, 26 February 2025\.
 
 [^3]:  Jameson, *Postmodernism, or, The Cultural Logic of Late Capitalism*, p. 17\.
 
