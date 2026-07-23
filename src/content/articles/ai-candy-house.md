@@ -1,7 +1,7 @@
 ---
 title: '“AI” is a Candy House'
-date: 2026-07-22
-genre: essay
+date: 2026-07-23
+genre: review
 draft: false 
 authors: 
     - caddie-alford
