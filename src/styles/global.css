@@ -60,9 +60,29 @@
   }
 
   .footnotes ol * {
-    @apply text-base font-normal leading-[1.25] !text-p-grey font-serif;
+    @apply text-base font-normal leading-[1.25] text-p-grey font-serif !pl-[0em];
   }
 
+  .footnotes ol {
+    @apply !pl-[0em] list-none;
+  }
+
+  .footnotes ol li p {
+    @apply flex items-baseline;
+  }
+  
+  .footnote-num-backref {
+    @apply font-semibold !text-p-blue !no-underline w-[1.375em] shrink-0 text-right mr-[0.625em] tabular-nums;
+  }
+
+  .footnote-text {
+    @apply min-w-0 flex-1;
+  }
+
+  /* .footnote-num-backref {
+    @apply font-semibold !text-p-blue !no-underline inline-block mr-[0.375em] w-[1.35em] text-right;
+  }
+ */
   .data-footnote-backref {
     @apply hidden;
   }
