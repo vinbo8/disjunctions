@@ -20,6 +20,7 @@ export default defineConfig(
     remarkRehype: {
       footnoteLabel: "Notes",
       footnoteBackContent: "[^]",
+      clobberPrefix: "",
     }
   },
   site: import.meta.env.PROD ? "https://disjunctionsmag.com" : "http://localhost:4321",

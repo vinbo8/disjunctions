@@ -38,6 +38,25 @@ var cover = image ? image : "https://disjunctionsmag.com/img/favicon.png"
 
 <script defer src="https://analytics.marxymarx.org/script.js" data-website-id="d44de632-a1dd-42c4-8472-c528fac0c32f"></script>
 
+<script>
+    import { littlefoot } from 'littlefoot';
+    import 'littlefoot/dist/littlefoot.css';
+
+    let instance;
+
+    function initFootnotes() {
+      instance = littlefoot({activateOnHover: true,});
+    }
+
+    function cleanupFootnotes() {
+      instance?.unmount();
+    }
+
+    // initFootnotes();
+    document.addEventListener('astro:before-swap', cleanupFootnotes);
+    document.addEventListener('astro:page-load', initFootnotes);
+</script>
+
 <script is:inline>
 function animate() {
     const animateElements = document.querySelectorAll(".animate");

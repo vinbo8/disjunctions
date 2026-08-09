@@ -79,6 +79,17 @@
     @apply min-w-0 flex-1;
   }
 
+  .littlefoot--print {
+  display: block !important;
+}
+
+.littlefoot__button {
+  all: unset;           /* strips all button UA styles */
+  cursor: pointer;      /* keep the pointer cursor since it's still interactive */
+  font: inherit;        /* match surrounding article text */
+  color: inherit;       /* no blue/link color unless you want it */
+}
+
   /* .footnote-num-backref {
     @apply font-semibold !text-p-blue !no-underline inline-block mr-[0.375em] w-[1.35em] text-right;
   }
