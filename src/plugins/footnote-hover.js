@@ -11,7 +11,7 @@ function getMaxWidth(linkRect) {
 
 function initFootnotePopovers() {
 if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
-  document.querySelectorAll('a[href^="#user-content-fn"]').forEach((link) => {
+  document.querySelectorAll('a[href^="#user-content-fn-"]').forEach((link) => {
     // avoid double-initializing on view-transition navigations
     if (link.dataset.footnoteInit) return;
     link.dataset.footnoteInit = 'true';
