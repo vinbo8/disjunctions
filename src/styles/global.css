@@ -155,15 +155,10 @@
   .resize-animate {
     transition: all 0.15s ease-in allow-discrete;
   }
-
-  /* .footnotes::before {
-    content: "";
-    display: block;
-    height: 1px;
-    background: currentColor;
-    opacity: 0.2;
-    margin-bottom: 2rem;
-  } */
+  
+  [id^="user-content-fnref-"] {
+    scroll-margin-top: 3rem; /* adjust to taste — this is the "few lines" of breathing room */
+  }
 }
 
 /* Register your custom font family and tell the browser where to find it. */
