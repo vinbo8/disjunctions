@@ -194,7 +194,7 @@
 }
 
 .footnote-tooltip {
-  @apply absolute bg-white border border-black px-3 py-2 text-sm shadow-md z-[5] max-h-60 overflow-y-auto font-serif text-p-grey;
+  @apply absolute bg-white border-2 border-black px-3 py-2 text-sm shadow-md z-[5] max-h-60 overflow-y-auto font-serif text-p-grey;
   @apply opacity-0 -translate-y-1 pointer-events-none transition-all duration-100 ease-in-out;
 }
 
