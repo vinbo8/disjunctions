@@ -197,3 +197,16 @@
   src: url(../../public/fonts/ABCDiatypeVariable-Trial.woff2) format("woff2-variations");
   font-style: normal italic;
 }
+
+.footnote-tooltip {
+  @apply absolute bg-white border border-black px-3 py-2 text-sm shadow-md z-[5] max-h-60 overflow-y-auto font-serif text-p-grey;
+  @apply opacity-0 -translate-y-1 pointer-events-none transition-all duration-100 ease-in-out;
+}
+
+.footnote-tooltip.is-visible {
+  @apply opacity-100 translate-y-0 pointer-events-auto;
+}
+
+/* rich content inside now renders properly — links, italics, code, etc. */
+.footnote-tooltip a { color: inherit; text-decoration: underline; }
+.footnote-tooltip code { background: #f3f3f3; padding: 0.1em 0.3em; border-radius: 3px; }
