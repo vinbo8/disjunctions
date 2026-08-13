@@ -88,7 +88,6 @@ Raytheon agrees to provide University funding in the amount of <u>    �
 	| Attention: <u>    </u>| Address: <u>    </u>|
 
     Notices shall be effective upon receipt.  
-	<br>
        
 12. <u>Applicable Law  </u>
 
