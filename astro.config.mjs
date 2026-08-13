@@ -3,7 +3,6 @@ import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
 
 import rehypeFootnoteBackrefOnNumber from "./src/plugins/rehype-footnote-backref.mjs";
-console.log('TYPE:', typeof rehypeFootnoteBackrefOnNumber, rehypeFootnoteBackrefOnNumber);
 
 // https://astro.build/config
 export default defineConfig(

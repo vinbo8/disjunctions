@@ -21,6 +21,10 @@
     --color-p-grey: #474752
 }
 
+@utility markdown-text {
+    @apply tracking-normal leading-[1.35] text-black font-sans text-[1.2rem] lg:text-[1.33rem];
+}
+
 @layer components {
   a {
     @apply hover:text-p-blue transition duration-200;
@@ -40,14 +44,52 @@
 
   .text-block {
     @apply 
-    prose-p:tracking-normal prose-p:leading-[1.35] prose-p:text-black
-    prose-p:font-sans prose-p:mb-8 prose-p:text-[1.2rem] lg:prose-p:text-[1.33rem]
+    /* prose-p:tracking-normal prose-p:leading-[1.35] prose-p:text-black
+    prose-p:font-sans prose-p:mb-8 prose-p:text-[1.2rem] lg:prose-p:text-[1.33rem] */
     prose-headings:font-sans prose-headings:font-bold
     prose-h1:text-5xl lg:prose-h1:text-6xl prose-h1:mb-2 mb-0 prose-h1:font-serif
     prose-h4:text-4xl
     prose-h3:text-5xl lg:prose-h3:text-6xl prose-h3:mb-8 prose-h3:font-serif
     prose-a:text-p-blue prose-a:hover:underline
+    prose-ol:marker:!text-black prose-ol:marker:!font-sans
+    prose-li:!pl-0
+    prose-ol:!pl-8
   }
+
+  .text-block :where(p, li, td, th) {
+    @apply markdown-text;
+  }
+
+  .text-block :where(th, td, thead, tr) {
+    @apply !border-0;
+  }
+
+  .text-block p {
+    @apply mb-8;
+  }
+
+  /* explicitly for lists in the article; selector later resets it for citation lists*/
+  li p {
+    @apply !my-2;
+  }
+
+  .footnotes li p {
+    @apply !my-5
+  }
+  /* --- */
+
+  ol ol {
+    list-style-type: lower-alpha !important;
+  }
+
+  ol ol ol {
+    list-style-type: lower-roman !important;
+  }
+
+  .text-block table {
+    @apply !my-4;
+  }
+
 
   .text-block-no-prose {
     @apply mx-auto !max-w-[100ch]

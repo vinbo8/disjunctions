@@ -15,5 +15,6 @@
 				"src/data/*.ts"
 			],
 		},
+		"ignoreDeprecations": "6.0"
 	}
 }

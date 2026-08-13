@@ -17,7 +17,8 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props
-const ogUrl = Astro.site.origin + article.data.image.src
+// const ogUrl = Astro.site.origin + article.data.image.src
+const ogUrl = new URL(article.data.image.src, Astro.site).href;
 const shortDate = new Date(article.data.date).toLocaleDateString("en-US", {month: "short", year: "2-digit"}).toLowerCase();
 const { Content } = await article.render()
 ---
