@@ -73,7 +73,7 @@ Interestingly, if we flip this script, we could argue that trillion dollar inves
 
 [^5]:  Consensus reality means something like debating and settling ideas over and over again.
 
-[^6]:  Georgia Wells, “OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago
+[^6]:  Georgia Wells, “OpenAI Employees Raised Alarms About Canada Shooting Suspect Months Ago”, *The Wall Street Journal*, 21 February 2026\.
 
 [^7]:  Thomas McMullan, “What does the panopticon mean in the age of digital surveillance?”, *The Guardian,* 23 July 2015\.
 
