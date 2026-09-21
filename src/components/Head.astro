@@ -16,7 +16,7 @@ var cover = image ? image : "https://disjunctionsmag.com/img/favicon.png"
 <link rel="manifest" href="/img/site.webmanifest">
 
 <link rel="canonical" href={canonicalURL} />
-<meta name="description" content={summary} />
+<meta name="description" content={summary}
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="generator" content={Astro.generator} >
 
@@ -24,7 +24,7 @@ var cover = image ? image : "https://disjunctionsmag.com/img/favicon.png"
 <meta property="og:site_name" content="Disjunctions">
 <meta property="og:description" content={summary}>
 <meta property="og:image" content={cover}>
-<meta property="og:url" content="https://disjunctionsmag.com">
+<meta property="og:url" content={canonicalURL}>
 <meta property="og:type" content="website">
 
 <meta name="twitter:card" content="summary">
