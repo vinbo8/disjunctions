@@ -2,6 +2,7 @@
 import { ClientRouter } from "astro:transitions";
 
 const {title, abstract, image, noindex} = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 var summary = abstract ? abstract : "Disjunctions is a magazine dedicated to analysis and critique of contemporary technoscience"
 var cover = image ? image : "https://disjunctionsmag.com/img/favicon.png"
 ---
@@ -14,8 +15,8 @@ var cover = image ? image : "https://disjunctionsmag.com/img/favicon.png"
 <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
 <link rel="manifest" href="/img/site.webmanifest">
 
-<link rel="canonical" href="https://disjunctionsmag.com/" />
-<meta name="description" content="Disjunctions is a magazine dedicated to analysis and critique of contemporary developments in science and technology." />
+<link rel="canonical" href={canonicalURL} />
+<meta name="description" content={summary} />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="generator" content={Astro.generator} >
 
