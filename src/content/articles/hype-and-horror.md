@@ -7,7 +7,7 @@ authors:
     - theo-aalders
     - sanjana-paul
 image: "../images/persian-demon.jpg"
-caption: 'Persian Demons from a Book of Magic and Astrology (1921).'
+caption: 'Kitāb-i ʻAjāʾib-i makhlūqāt (1921). Open domain.'
 abstract: AI infrastructures, gothic imaginaries, and the politics of dissent
 ---
 In Alabama,[^1] a company called STREAM US Data Centers recently proposed a \$19 billion data centre campus.[^2] The structures would rise more than a hundred feet, cover 2.2 million square feet, and draw 500 megawatts — enough to power hundreds of thousands of homes. It would be one of the largest such campuses around the country. Construction was supposed to begin this year, but it has not, because the Tonawanda Seneca Nation and an alliance of neighbouring residents have opposed it — one front in a pattern of data centre resistance now fermenting across the United States. In a press release, the *Allies of Tonawanda Seneca* quote a local activist, stating: *“*As a resident of Genesee County, I am outraged by STREAM’s new and monstrous plan.”[^3] Four thousand miles away, in the Lammermuir Hills of the Scottish Borders, a similar £2bn data centre proposal drew nearly seven thousand petition signatures opposing it in a single week. Campaigners there used similar language, also referring to the planned construction as a “monster”.[^4]
