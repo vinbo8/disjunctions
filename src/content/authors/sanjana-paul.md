@@ -1,0 +1,4 @@
+---
+name: Sanjana Paul
+---
+Sanjana Paul is an engineer, environmental justice researcher, and systems thinker working at the intersection of infrastructure, climate, and technology. She is the co-founder and executive director of Rooted Futures Lab, a nonprofit systems change lab centering environmental justice in technology, and a PhD student at MIT, where her research focuses on renewable energy, energy justice, and the electric grid. Her work has ranged from atmospheric science software engineering at NASA to passing decarbonization policy at the local level. She holds a BS in electrical engineering and physics from VCU, and a Master’s in Environmental Policy and Planning from MIT.

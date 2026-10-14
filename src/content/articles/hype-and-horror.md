@@ -1,0 +1,103 @@
+---
+title: 'The Hype and the Horror'
+date: 2026-10-14
+genre: essay
+draft: false 
+authors: 
+    - theo-aalders
+    - sanjana-paul
+image: "../images/persian-demon.jpg"
+caption: 'Persian Demons from a Book of Magic and Astrology (1921).'
+abstract: AI infrastructures, gothic imaginaries, and the politics of dissent
+---
+In Alabama,[^1] a company called STREAM US Data Centers recently proposed a \$19 billion data centre campus.[^2] The structures would rise more than a hundred feet, cover 2.2 million square feet, and draw 500 megawatts — enough to power hundreds of thousands of homes. It would be one of the largest such campuses around the country. Construction was supposed to begin this year, but it has not, because the Tonawanda Seneca Nation and an alliance of neighbouring residents have opposed it — one front in a pattern of data centre resistance now fermenting across the United States. In a press release, the *Allies of Tonawanda Seneca* quote a local activist, stating: *“*As a resident of Genesee County, I am outraged by STREAM’s new and monstrous plan.”[^3] Four thousand miles away, in the Lammermuir Hills of the Scottish Borders, a similar £2bn data centre proposal drew nearly seven thousand petition signatures opposing it in a single week. Campaigners there used similar language, also referring to the planned construction as a “monster”.[^4]
+
+Faced with large-scale infrastructural intrusions into their lives, people have often reached for a register of gothic horror. In Colombia, for instance, locals call the Cerrejón open-pit mine “el monstruo”; in Germany, Hambach lignite coal mine excavators are called “world-eating machines”.[^5] In Kenya, a recently planned development corridor has been described as a ghost, an animal, and a monster, echoing how the much older Uganda Railway project was once called the “iron snake”.[^6] To suddenly be living alongside something of inhuman scale and appetite, built by people you will never meet, for profits and benefits that flow somewhere else — that is what such vocabulary captures. When violence is present but unattributable — no single author, no visible hand — there must be monsters. Data centres enter this lineage as its newest chapter, the latest structures in a long history of extractive worldbuilding that forces communities to host and feed the machine that eats their land.
+
+Peculiarly, though, something that sets data centres apart from other ghoulish infrastructures is that the AI firms building and driving demand for them will often reach for the same tropes themselves. Indeed, the industry’s discussions around P(doom) — the probability that AI destroys the world — run on a curious mix of stochastic and eschatological grammar.[^7] The AI titans announce that a Great Old One is stirring in the deep, that its arrival is inevitable, and that our only remaining option is to be present, well-funded, and standing closest when it wakes. Cthulhu waits dreaming in the drowned city, and the cult does not oppose the waking but hastens it. But notice that summoning rhetoric never says what, exactly, is being summoned. Which systems, doing what, for whom? The demon has no name, only a probability. That is how the spell works. It holds only as long as nobody in the room plainly announces what is being conjured. It is the principle of *hic sunt dracones*: the unexplored parts of a map swarming with monsters that threaten doom and destruction as much as they promise the glory of exploration and conquest.  
+
+---
+
+The use of strategically placed criticism to produce hype has a name. Lee Vinsel calls it “criti-hype”, though the invocation of doom and demons goes beyond mere criticism to take an almost religious form.[^8] In an interview at UNSW Sydney, Karen Hao mapped out these AI congregations into two factions: the boomers, who preach salvation and “abundance” through the AI gods, and the doomers, who warn that the end of times is near and supply the required eschatology.[^9] Both belong to the same religion, and both eat the same manna: venture investment, which hype attracts like nothing else. 
+
+It might seem contradictory that part of the industry’s opposition and its loudest pitchmen would share a discursive register, but hype and horror are intrinsically linked. Anticipation is the underlying current that propels both. Hitchcock is famously credited with the observation that there is no terror in the bang, only in the anticipation of it. Both hype and horror have us at the edge of our seats, in anxious or thrilled anticipation of what may (or may not) come. This mode of horror and hype works through a temporal transgression: what is not yet becomes emotionally accessible in the present. Derrida describes this haunting presence of the future through Shakespeare’s Hamlet: “time is out of joint”, Hamlet curses, haunted by the spectre of his dead father. Derrida, customarily enigmatic, suggests that the future is its memory.  Both hype and horror are transgressive because they pierce the supposedly incorruptible veil between now and soon, letting the future invade the present. 
+
+But an invasive future is not the only thing that creates the specific horror of data centre infrastructure. The STREAM US data centre is, after all, not the first structure to arrive on this land uninvited, and the Tonawanda Seneca Nation’s opposition movement understands it as the newest form of a very old and violent land relation. Max Liboiron has argued that colonialism is not a bounded historical event or a distant geography, but an ongoing set of relations premised on assumed access to Indigenous land. The data centre buildout runs on that assumption.[^10] When asked, Krystal Two Bulls, executive director of Honor the Earth, an Indigenous-led environmental justice organisation which is tracking more than a hundred proposed data centre projects on tribal and rural lands, refers to the data centre boom as a “modern-day iteration” of settler colonialism.[^11] The horror data centre infrastructure, the “time out of joint”, is a house of mirrors where settler-colonial injustices are reflected in present struggles over plans for the future. America’s settler colonialism and foundational genocide are history, but not past; the historic violence is present, not in the sense that it is remembered, but because it is still happening. 
+
+						
+
+---
+
+But there are, of course, differences between the way actual resistance movements and doomers express their horror over data centre infrastructure. The doomer eschatology of AI is conspicuously abstract and unspecific. The term AI itself is vague enough that no one can be made to say which systems, for whose benefit, and at what cost. “The cloud” is a weightless signifier attached to a heavy signified: water, diesel, concrete, heat. This is what Barthes called naturalisation: myth lending a contingent, interested arrangement “the simplicity of essences”, so that a choice about whose air and water get spent arrives in the hearing room as technical necessity. The term “abundance” is enlisted by liberals like Ezra Klein and, increasingly, by the right because it is so ethereally empty. “Doom” menaces precisely because nobody can say what it is. In the doomer catechism, the one fixed article of faith is that a US-made apocalypse is preferable to one made in China. This is a second summoning under Musk’s cult of the AI-Elder God: if we do not wake it, “they” will. Such an invocation follows the same racist structure of Lovecraft himself. A sense of horror at what is foreign, arriving from elsewhere, breeding faster than us.[^12] 
+
+The AI most people encounter in their daily lives — shrimp Jesus, job anxiety, and an abundance of em-dashes in college essays — is trifling next to the hype-horror’s grand promises of salvation or damnation.[^13] By contrast, the horror of data centres has body and force; it assails the senses. The data centre is a “huge, hot, noisy reminder to Native Americans that after 250 years the insults to their lands and their lives continue”, say the *Allies of Tonawanda*.[^14] “This monster will operate 24/7, so the humming and vibrations will be felt and heard throughout the night”, says an opposition activist in Scotland. Whatever the cloud was supposed to mean cannot survive contact with a hundred-foot structure humming through the night. Frontline communities are the first to see through the myth, not because they read Barthes, but because the signified moved in next door. The data centre is the locus where the AI gods descend from their Olympus (or are summoned from hell, depending on who you ask) and become comprehensible, in all their huge, hot, noisy splendour. 
+
+As one of us has argued, the planning and construction phase of a data centre is particularly horrific. The interregnum “between the beginning and completion of an infrastructure project \[…\] is a time for monsters, a ghostly time”.[^15] Here, the monster is slowly revealed in glimpses, shadows, and rumours. This is the second parallel between hype and horror: the slow transfiguration between there and not there, between hidden and visible. The semi-transparent ghost announcing itself through everyday sabotage, flickering lights and books falling from shelves, finds its real equivalent in the hauntings of data centre construction. No ectoplasm, but brown water from the sink; no eerie wailing but bad harmonics when power surges interfere with home electronics.[^16] Frontline communities already feel what, for everyone else, remains an abstract threat.
+
+This form of revelation returns us to what “monstrum” meant before it meant monster: an omen, a showing, a warning. The Latin *monere*, to warn, is also the root of the word *demonstrate*. The data centre is a monster in this sense, too: a thing that reveals. Demons can be mastered by being named. The Cartesian split between the infrastructural “body” of data centres and the quasi-spiritual AI “mind” obscures reality. Forcing the shapeshifting thing called “AI” to take a definite form that can be weighed, questioned, and refused breaks the spell. The vagueness of both the threats and promises of AI fuels the hype. Naming profanes it and makes it contestable. The *monstrum* is answered by the demonstration.  
+
+***
+
+In Marx and Engels, we find an abundance of Gothic metaphors that viscerally express the horrors of capitalism; the “Monsters of the Market”, as David McNelly puts it. In *The Condition of the Working Class in England*, for instance, Engels quotes the Times describing how London’s “want, and famine, and disease, and vice should stalk in all their kindred horrors, consuming body by body, soul by soul\!”[^17] In *Capital,* Marx describes the concrete apparatuses of production as “a mechanical monster whose body fills whole factories” and the capitalist mode of production as a vampiric force “incorporating living labour power into their dead objectivity”. The capitalist transforms “past, objectified, dead labour into capital, self-valuing value, an animated monster”.[^18] The machines, the infrastructure, the accumulated wealth confronting the worker are all congealed past labour, and they come alive only by draining the living labour of the present. 
+
+A data centre is dead labour in this sense thrice over. First, the building itself: the concrete poured and cables pulled by thousands of construction workers, congealed into a shape that will far outlast their employment. Second, there is the training corpus, the writing of millions of people, the living and the literal dead, scrambled and stirred in the cauldrons of data centre servers, boiling society’s “general intellect” down into a “*bloße Gallerte*” of undifferentiated human labour.[^19] Not a “congealed quantity”, as the more polite English translation would have it, but the gelatinous mush Marx’s readers might have had for breakfast; edible glue boiled down from the hooves and off-cuts of the slaughterhouse. Lastly, there is the diesel in the generators and the coal still feeding the grid, the compressed remains of the Carboniferous. A machine sold as the frontier of the future turns out to run on the dead in the most geological sense of the word.  
+
+McNally argues that these descriptions were not rhetorical flourish or demagogy, but an analytical necessity. The language of horror was, in fact, the most accurate description of the “Nightmare-World” of capitalism, which remains “inexplicable outside the language of monstrosity”.[^20] Two hundred years after the rise of Manchester capitalism, this assertion holds. When local resistance movements, the CEOs of AI companies, and hard-nosed Marxists all reach for the same vocabulary of gothic horror to describe a phenomenon, the convergence is an important finding. Marx and Engels used the language of gothic horror as both an analytical tool and a rousing call against the injustices they described. Today, frontline communities use similar language as a call to arms against data centre infrastructure. Organisers, academics, and whoever stands in solidarity with these movements may also find value in the hermeneutics of horror.  
+
+Reading the hype-horror-nexus of AI data centres through the lens of gothic Marxism is most informative where hype and horror diverge. While the two phenomena share the temporal transgression of anticipation trespassing into the present and the visual transgression of revelation, only horror can generate a politics of dissent. McNally argues that gothic Marxism always contains the hope of a dialectical reversal, “the reanimation of the relations amongst things and persons via the liberation of things, as well as persons, from circuits of abstraction”.[^21] The spectre of communism is perhaps Marx’ most recognised reference to the horror genre. Unlike the vampiric monstrosities of capitalist production that plague workers and the oppressed, this is a spectre that haunts “the powers of old Europe”. While hype only benefits capitalists, the horror of infrastructure can be inverted. Its spectres can yet congeal to haunt investors instead. 
+
+---
+
+The revelation of AI infrastructure as contingent, and subject to political choice, has “radical, even revolutionary potential”, notes Alison Landsberg. One consequence has been Neo-Luddite movements gaining momentum across the US and beyond.[^22] These movements constitute a real horror to investors in data infrastructure — and, indeed, the *Combating Terrorism Centre* is getting noticeably nervous.[^23] As Jathan Sadowski, Brian Merchant, Gavin Mueller, Thomas Dekeyser and many others have argued, the Luddite repertoire may be a necessary part of any resistance to data centres.[^24] The Luddites, it is worth remembering, were extremely specific about which machines they attacked. Enoch’s hammer may be swung effectively both against the hype, as well as the horror of AI infrastructure. 
+
+None of this is an argument against building things. The distinction that leaning into horror makes available is one between different forms of infrastructure. A wind farm, a transmission line, a battery storage facility: these can be sited unjustly (and often are) while still answering a public need that can be named, defended, and weighed against the burden they impose. The question of whether the buildout is warranted at all has a defensible answer; the argument is about who decides, who pays, and who benefits. Hyperscale compute for speculative generative AI cannot make that case, and its promoters have not tried to; they have offered a summoning instead. Neo-Luddism may thus emerge as an important tactic against the new kings of techno-feudalism; it already offers a useful way to read AI as a system of domination whose concrete manifestations are assailable. As a militant tactic, Luddism disenchants both the hype and horror of AI; it reveals its promises as empty and profanes its infrastructural incarnation. 
+
+Back in Alabama, construction has not begun. And in the Lammermuir Hills, the monster so far exists only as a planning application and a developer’s denial that it is a monster. This is the interregnum, the ghostly time. But the communities living in it are not waiting at the edge of their seats. They are asking the questions that break spells: whose land, what benefit, and for whom. The Tonawanda Seneca Nation and its allies are not debating whether the Great Old One will wake. They are refusing to be the site of the summoning. And their refusal, unlike the industry’s horror stories, cannot be converted into hype. It is the one aspect of this entire gothic repertoire that the market cannot absorb.
+
+[^1]:  Not the state, but a small town in New York, abutting the reservation territory of the Tonawanda Seneca Nation.
+
+[^2]:  \$1.4 billion of which would be generously funded through state and local tax exemption.
+
+[^3]:  Allies of Tonawanda Seneca Nation, “Allies of Tonawanda Seneca Nation Strongly Oppose ‘Monstrous Data Center’ Proposed for STAMP”, *Orleans Hub*, 16 December 2025\.
+
+[^4]:  The project’s developers have protested this characterisation, putting on record that it was “not accurate”. “Opposition mounts to ‘monster’ data centre in Borders hills”, *BBC News*, 11 June 2026\. 
+
+[^5]:  Oliver Pieper, “Germany’s Dirty Colombian Coal”, *Deutsche Welle*, 29 May 2022; Andrea Brock, Alexander Dunlap, “Facing World-Eating Machines: A Dialogue with Dr. Andrea Brock on the Hambach Coal Mine, Academia & Political Struggle”, *Rupture Press*, 1 November 2024\. 
+
+[^6]:  Theo Aalders and Wangui Kimari, “A time for monsters: ghost projects, gothic Marxism, and the transgressive horror of infrastructure futures”, *Third World Quarterly*, 2026; Harry Ronald, *The Iron Snake*, 1965\.
+
+[^7]:  Jim VandeHei and Mike Allen, “Behind the Curtain: What If They're Right?”, *Axios*, 16 June 2025\.
+
+[^8]:  Lee Vinsel, “You're Doing It Wrong: Notes on Criticism and Technology Hype”, *Medium*, 1 February 2021\.
+
+[^9]:  Toby Walsh, “Karen Hao: Empire of AI”, featuring Karen Hao, Mimi Zou, and Joel Pearson, *UNSW Centre for Ideas*, podcast; Dylan Gyauch-Lewis, “The Abundance Gang Has a Big AI Problem”, *New Republic*, 25 February 2026\.
+
+[^10]:  Max Liboiron, Pollution is Colonialism, 2021\.
+
+[^11]:  Krystal Two Bulls, “'Data Colonialism': Native Communities Fight AI Data Centers on Indigenous Land”, *Democracy Now, 22* April 2026\.
+
+[^12]:  Alberto Alcaraz Escarcega, “The Racial Imaginaries of H. P. Lovecraft”, online exhibition, *Brown University Library*, 2020\.
+
+[^13]:  I refuse to give up my favourite punctuation. 
+
+[^14]:  Adelisa Badzic, “Genesee County Residents Pack Public Hearing to Oppose Proposed \$19B Data Center Project”, *WHEC News10NBC*, 16 April 2026\.
+
+[^15]:  Theo Aalders and Wangui Kimari, “A time for monsters”. 
+
+[^16]:  Alexandria Ocasio-Cortez, “Ocasio-Cortez Presses EPA Assistant Administrator Kramer on Jeopardizing Clean Water Access by Caving to Major Data Center Construction”, 20 May 2026; Leonardo Nicoletti, Naureen Malik, and Andre Tartar, “AI Needs So Much Power, It’s Making Yours Worse”, *Bloomberg*, 27 December 2024\.
+
+[^17]:  Frederick Engels, The Condition of the Working Class in England in 1844, 1943\. 
+
+[^18]:  Karl Marx, Capital: A Critique of Political Economy, Volume 1, 1992\.
+
+[^19]:  Wolfgang Fritz Haug, “General Intellect”, trans. Joseph Fracchia, *Historical-Critical Dictionary of Marxism*, October 2024; Frigga Haug and Wolfgang Fritz Haug. "Concrete Useful Labour", trans. Kolja Swingle, *Historical-Critical Dictionary of Marxism*, December 2024\.
+
+[^20]:  David McNally, *Monsters of the Market: Zombies, Vampires and Global Capitalism*, 2012\. 
+
+[^21]:  David McNally, *Monsters of the Market.* 
+
+[^22]:  Sarah Thankam Mathews, “Getting Off with the Luddites”, *n+1*, 20 July 2026\. 
+
+[^23]:  Alison Landsberg, “Horror vérité: politics and history in Jordan Peele’s *Get Out*”, *Continuum*, 2018; Yannick Veilleux-Lepage, “Beyond Misuse: Artificial Intelligence, Grievance, and the Future Landscape of Political Violence”, *CTC Sentinel*, April 2026\. 
+
+[^24]:  Jathan Sadowski, *The Mechanic and the Luddite: A Ruthless Criticism of Technology and Capitalism*, 2025; Brian Merchant, “Understanding the Luddites in the Age of AI”, *Blood in the Machine*, 19 June 2026; Gavin Mueller*, Breaking Things at Work: The Luddites Are Right about Why You Hate Your Job*, 2021; Thomas Dekeyser, *Techno-Negative: A Long History of Refusing the Machine*, 2026\. 
