@@ -94,7 +94,7 @@ Back in Alabama, construction has not begun. And in the Lammermuir Hills, the mo
 
 [^20]:  David McNally, *Monsters of the Market: Zombies, Vampires and Global Capitalism*, 2012\. 
 
-[^21]:  David McNally, *Monsters of the Market.* 
+[^21]:  McNally, *Monsters of the Market.* 
 
 [^22]:  Sarah Thankam Mathews, “Getting Off with the Luddites”, *n+1*, 20 July 2026\. 
 
