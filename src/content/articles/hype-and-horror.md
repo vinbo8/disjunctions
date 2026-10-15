@@ -10,7 +10,7 @@ image: "../images/persian-demon.jpg"
 caption: 'Kitāb-i ʻAjāʾib-i Makhlūqāt (1921). Open domain.'
 abstract: AI infrastructures, gothic imaginaries, and the politics of dissent
 ---
-In Alabama,[^1] a company called STREAM US Data Centers recently proposed a \$19 billion data centre campus.[^2] The structures would rise more than a hundred feet, cover 2.2 million square feet, and draw 500 megawatts — enough to power hundreds of thousands of homes. It would be one of the largest such campuses around the country. Construction was supposed to begin this year, but it has not, because the Tonawanda Seneca Nation and an alliance of neighbouring residents have opposed it — one front in a pattern of data centre resistance now fermenting across the United States. In a press release, the *Allies of Tonawanda Seneca* quote a local activist, stating: “As a resident of Genesee County, I am outraged by STREAM’s new and monstrous plan.”[^3] Four thousand miles away, in the Lammermuir Hills of the Scottish Borders, a similar £2bn data centre proposal drew nearly seven thousand petition signatures opposing it in a single week. Campaigners there used similar language, also referring to the planned construction as a “monster”.[^4]
+In Alabama,[^1] a company called STREAM US Data Centers recently proposed a \$19 billion data centre campus.[^2] The structures would rise more than a hundred feet, cover 2.2 million square feet, and draw 500 megawatts — enough to power hundreds of thousands of homes. It would be one of the largest such campuses around the country. Construction was supposed to begin this year, but it has not, because the Tonawanda Seneca Nation and an alliance of neighbouring residents have opposed it — one front in a pattern of data centre resistance now fermenting across the United States. In a press release, the *Allies of Tonawanda Seneca* quote a local activist, stating:/Mar “As a resident of Genesee County, I am outraged by STREAM’s new and monstrous plan.”[^3] Four thousand miles away, in the Lammermuir Hills of the Scottish Borders, a similar £2bn data centre proposal drew nearly seven thousand petition signatures opposing it in a single week. Campaigners there used similar language, also referring to the planned construction as a “monster”.[^4]
 
 Faced with large-scale infrastructural intrusions into their lives, people have often reached for a register of gothic horror. In Colombia, for instance, locals call the Cerrejón open-pit mine “el monstruo”; in Germany, Hambach lignite coal mine excavators are called “world-eating machines”.[^5] In Kenya, a recently planned development corridor has been described as a ghost, an animal, and a monster, echoing how the much older Uganda Railway project was once called the “iron snake”.[^6] To suddenly be living alongside something of inhuman scale and appetite, built by people you will never meet, for profits and benefits that flow somewhere else — that is what such vocabulary captures. When violence is present but unattributable — no single author, no visible hand — there must be monsters. Data centres enter this lineage as its newest chapter, the latest structures in a long history of extractive worldbuilding that forces communities to host and feed the machine that eats their land.
 
@@ -82,13 +82,13 @@ Back in Alabama, construction has not begun. And in the Lammermuir Hills, the mo
 
 [^14]:  Adelisa Badzic, “Genesee County Residents Pack Public Hearing to Oppose Proposed \$19B Data Center Project”, *WHEC News10NBC*, 16 April 2026\.
 
-[^15]:  Theo Aalders and Wangui Kimari, “A time for monsters”. 
+[^15]:  Theo Aalders and Wangui Kimari, “A time for monsters: ghost projects, Gothic Marxism, and the transgressive horror of infrastructure futures”, *Third World Quarterly*, 2026\. 
 
 [^16]:  Alexandria Ocasio-Cortez, “Ocasio-Cortez Presses EPA Assistant Administrator Kramer on Jeopardizing Clean Water Access by Caving to Major Data Center Construction”, 20 May 2026; Leonardo Nicoletti, Naureen Malik, and Andre Tartar, “AI Needs So Much Power, It’s Making Yours Worse”, *Bloomberg*, 27 December 2024\.
 
-[^17]:  Frederick Engels, The Condition of the Working Class in England in 1844, 1943\. 
+[^17]:  Frederick Engels, *The Condition of the Working Class in England*, 1845\. 
 
-[^18]:  Karl Marx, Capital: A Critique of Political Economy, Volume 1, 1992\.
+[^18]:  Karl Marx, *Capital: Volume 1*, 1867\.
 
 [^19]:  Wolfgang Fritz Haug, “General Intellect”, trans. Joseph Fracchia, *Historical-Critical Dictionary of Marxism*, October 2024; Frigga Haug and Wolfgang Fritz Haug. "Concrete Useful Labour", trans. Kolja Swingle, *Historical-Critical Dictionary of Marxism*, December 2024\.
 
