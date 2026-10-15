@@ -100,4 +100,4 @@ Back in Alabama, construction has not begun. And in the Lammermuir Hills, the mo
 
 [^23]:  Alison Landsberg, “Horror vérité: politics and history in Jordan Peele’s *Get Out*”, *Continuum*, 2018; Yannick Veilleux-Lepage, “Beyond Misuse: Artificial Intelligence, Grievance, and the Future Landscape of Political Violence”, *CTC Sentinel*, April 2026\. 
 
-[^24]:  Jathan Sadowski, *The Mechanic and the Luddite: A Ruthless Criticism of Technology and Capitalism*, 2025; Brian Merchant, “Understanding the Luddites in the Age of AI”, *Blood in the Machine*, 19 June 2026; Gavin Mueller*, Breaking Things at Work: The Luddites Are Right about Why You Hate Your Job*, 2021; Thomas Dekeyser, *Techno-Negative: A Long History of Refusing the Machine*, 2026\. 
+[^24]:  Jathan Sadowski, *The Mechanic and the Luddite: A Ruthless Criticism of Technology and Capitalism*, 2025; Brian Merchant, “Understanding the Luddites in the Age of AI”, *Blood in the Machine*, 19 June 2026; Gavin Mueller, *Breaking Things at Work: The Luddites Are Right about Why You Hate Your Job*, 2021; Thomas Dekeyser, *Techno-Negative: A Long History of Refusing the Machine*, 2026\. 
