@@ -82,7 +82,7 @@ Back in Alabama, construction has not begun. And in the Lammermuir Hills, the mo
 
 [^14]:  Adelisa Badzic, “Genesee County Residents Pack Public Hearing to Oppose Proposed \$19B Data Center Project”, *WHEC News10NBC*, 16 April 2026\.
 
-[^15]:  Theo Aalders and Wangui Kimari, “A time for monsters: ghost projects, Gothic Marxism, and the transgressive horror of infrastructure futures”, *Third World Quarterly*, 2026\. 
+[^15]:  Aalders and Kimari, “A time for monsters"\. 
 
 [^16]:  Alexandria Ocasio-Cortez, “Ocasio-Cortez Presses EPA Assistant Administrator Kramer on Jeopardizing Clean Water Access by Caving to Major Data Center Construction”, 20 May 2026; Leonardo Nicoletti, Naureen Malik, and Andre Tartar, “AI Needs So Much Power, It’s Making Yours Worse”, *Bloomberg*, 27 December 2024\.
 
