@@ -7,7 +7,7 @@ draft: false
 authors: 
     - aline-blankertz
 image: "../images/fuck-vonovia.jpg"
-caption: 'Graffiti on Tharandter Straße, Dresden. Public domain.'
+caption: 'Vonovia own 471,000 housing units in Germany. Public domain.'
 abstract: Programs for post-capitalist platforms
 ---
 Can we even imagine digital infrastructures that serve our needs rather than serving capital? What could they look like? How could we make their existence a reality? These are not merely hypothetical questions for academic contemplation. Campaigns like *Deutsche Wohnen & Co. Enteignen* (DWE) — Berlin’s attempt to expropriate real estate companies — show that bringing private property under collective ownership and democratic control is, today, a real and tangible option. In this article, I argue that in order to prevent Big Tech firms from further encroaching on our societies, we should take the prospect of socialising *digital* infrastructure seriously.
