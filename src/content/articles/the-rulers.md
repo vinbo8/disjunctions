@@ -6,7 +6,7 @@ draft: false
 authors: 
     - cecilia-rikap
 image: "../images/foxconn-milwaukee.jpg"
-caption: 'Photo: Aagnverglaser; image cropped and colour-adjusted from original. CC BY 4.0.'
+caption: 'Foxconn office building in Milwaukee. Photo: Chali Pittman / WORT News. CC BY 2.0.'
 abstract: Intellectual monopolies and contemporary capitalism
 ---
 
