@@ -50,7 +50,7 @@
     prose-h1:text-5xl lg:prose-h1:text-6xl prose-h1:mb-2 mb-0 prose-h1:font-serif
     prose-h4:text-4xl
     prose-h3:text-5xl lg:prose-h3:text-6xl prose-h3:mb-8 prose-h3:font-serif
-    prose-a:text-p-blue prose-a:hover:underline
+    prose-a:text-p-blue prose-a:hover:!text-p-blue prose-a:!font-normal
     prose-ol:marker:!text-black prose-ol:marker:!font-sans
     prose-li:!pl-0
     prose-ol:!pl-8
