@@ -7,7 +7,7 @@ authors:
     - cecilia-rikap
 image: "../images/foxconn-milwaukee.jpg"
 caption: 'Foxconn office building in Milwaukee; cropped and colour-adjusted. Photo: Chali Pittman / WORT News. CC BY 2.0.'
-abstract: Intellectual monopolies & the capture of value
+abstract: Intellectual monopolies and the capture of value
 ---
 
 The direct complicity of Big Tech firms in the genocide in Gaza, combined with their explicit rhetoric shift to the right atop a second Trumpian wave, has dented their carefully crafted public image of being progressive, green, benevolent facilitators of technological progress. Their more explicit interference in global politics, too — most recently exemplified by Meta’s role in hindering pro-Lula accounts during the elections in Brazil — has pushed countries outside the United States to urgently take stock of their dependency on the infrastructures provided by these firms. Such behaviour on the part of Big Tech is far from novel; yet its sheer brazenness has sparked a resurgence in efforts to analyse the source and nature of the power they possess in our societies, and to explore strategies to undermine it.
