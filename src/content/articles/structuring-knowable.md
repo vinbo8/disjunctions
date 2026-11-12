@@ -82,7 +82,7 @@ Ultimately, it’s easy to say we want to live a life that is meaningful, and af
 
 [^1]:  Paul A. Baran and Paul Sweezy, *Monopoly Capital: An Essay on the American Economic and Social Order*, 1966\.
 
-[^2]:  Cédric Durand, *How Silicon Valley Unleashed Techno-feudalism:The Making of the Digital Economy*, 2024\.
+[^2]:  Cédric Durand, *How Silicon Valley Unleashed Techno-feudalism: The Making of the Digital Economy*, 2024\.
 
 [^3]:  To follow the debate, see: Evgeny Morozov, “Critique of Techno-feudal Reason”, *New Left Review*, Jan–Apr 2022; Cédric Durand, “Scouting Capital’s Frontiers”, *New Left Review*, July–Aug 2022; Cecilia Rikap, “Capitalism As Usual?”, *New Left Review*, Jan–Feb 2023; Jodi Dean, “Same As It Ever Was?”, *Sidecar*, 6 May 2022\.
 
